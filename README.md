@@ -5,7 +5,7 @@ So this is a project in which i aim to make my own custom retro handheld gaming 
 **Panelised PCB Dimensions**- 339.82 mm* 102.32 mm
 - So the only KiCAD plugin i used was KiKit to panelise the board other than that the full board was designed by me!!! (this is my first major PCB project)
 Here are all the components of the PCB from the BOM i generated from KiCAD -
-## Bill of Materials (BOM)
+## Bill of Materials From KICAD (BOM)
 
 | Qty | Component / Value | Designators | Footprint |
 |:---:|:------------------|:------------|:----------|
@@ -67,9 +67,6 @@ Here are all the components of the PCB from the BOM i generated from KiCAD -
 
 # Here is the other stuff that i need to make the PCB including the components that are not included in the PCBA from JLC along with the links from where i plan on buying the parts - 
 # Bill of Materials (BOM) - The Great (DIY) Handheld
-
-This document contains the complete list of components, tools, and materials required for the Great (DIY) Handheld project.
-
 ## Components List
 
 | Name                                                              | Purpose                                                                                                                                                         |   Quantity |   Total Cost (USD) | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Distributor   |
