@@ -1,48 +1,48 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"Battery_3.7V1";"PinHeader_1x02_P2.54mm_Vertical";1;"Conn_01x02";;;
-2;"C1";"C_0805_2012Metric";1;"10µF";;;
-3;"C2";"C_0805_2012Metric";1;"4.7µF";;;
-4;"C3";"C_0805_2012Metric";1;"22µF";;;
-5;"C4";"C_0805_2012Metric";1;"22uF";;;
-6;"C5";"C_0805_2012Metric";1;"10uF";;;
-7;"C6";"C_0402_1005Metric";1;"100nF";;;
-8;"C7, C8";"CP_Radial_D6.3mm_P2.50mm";2;"100µF";;;
-9;"D1";"LED_D3.0mm";1;"RED";;;
-10;"D2";"LED_D3.0mm";1;"Green";;;
-11;"D3";"D_SOD-123";1;"1N5819";;;
-12;"J1";"PinHeader_2x20_P2.54mm_Vertical";1;"Conn_02x20_Odd_Even";;;
-13;"J2";"USB_C_Receptacle_GCT_USB4085";1;"USB_C_Receptacle_USB2.0_14P";;;
-14;"J3";"PinSocket_1x05_P2.54mm_Horizontal";1;"Joystick_Left";;;
-15;"J4";"PinSocket_1x05_P2.54mm_Horizontal";1;"Joystick_Right";;;
-16;"J5";"PinHeader_1x02_P2.54mm_Vertical";1;"Display_5V";;;
-17;"J6";"PinHeader_1x02_P2.54mm_Vertical";1;"Speaker";;;
-18;"J7";"Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal";1;"AudioJack3_3.5mm";;;
-19;"J10, J13";"PinHeader_1x12_P1.00mm_Vertical";2;"FCC Connector Left Board";;;
-20;"J11, J12";"PinHeader_1x12_P1.00mm_Vertical";2;"FCC Connector Right Board";;;
-21;"JM1";"Joystick Module 40x27mm";1;"Joystick Module Left Board";;;
-22;"JM2";"Joystick Module 40x27mm";1;"Joystick Module right board";;;
-23;"L1";"L_Bourns_SRR1260";1;"22uH";;;
-24;"R1";"R_0402_1005Metric";1;"2K";;;
-25;"R2, R3";"R_0402_1005Metric";2;"1K";;;
-26;"R4";"R_0402_1005Metric";1;"100k";;;
-27;"R5";"R_0402_1005Metric";1;"33k";;;
-28;"R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R22, R23, R28, R29";"R_0402_1005Metric";14;"10k";;;
-29;"R16, R17";"R_0402_1005Metric";2;"5.1k";;;
-30;"R18, R19";"R_0402_1005Metric";2;"4.7k";;;
-31;"R20, R21";"R_0402_1005Metric";2;"100";;;
-32;"R24, R25, R26, R27";"R_0402_1005Metric";4;"20k";;;
-33;"SW1";"SW_Slide_SPDT_Angled_CK_OS102011MA1Q";1;"SW_SPDT";;;
-34;"SW2";"SW_PUSH_6mm_H5mm";1;"Button_A";;;
-35;"SW3";"SW_PUSH_6mm_H5mm";1;"Button_B";;;
-36;"SW4";"SW_PUSH_6mm_H5mm";1;"Button_X";;;
-37;"SW5";"SW_PUSH_6mm_H5mm";1;"Button_Y";;;
-38;"SW6";"SW_PUSH_6mm_H5mm";1;"D-pad UP";;;
-39;"SW7";"SW_PUSH_6mm_H5mm";1;"D-pad DOWN";;;
-40;"SW8";"SW_PUSH_6mm_H5mm";1;"D-pad LEFT";;;
-41;"SW9";"SW_PUSH_6mm_H5mm";1;"D-pad RIGHT";;;
-42;"SW12";"SW_PUSH_6mm_H5mm";1;"Start";;;
-43;"SW13";"SW_PUSH_6mm_H5mm";1;"Select";;;
-44;"U1";"SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias";1;"TP4056-42-ESOP8";;;
-45;"U2";"SOT-23-6";1;"MT3608";;;
-46;"U3";"TSSOP-10_3x3mm_P0.5mm";1;"ADS1115IDGS";;;
-47;"U4";"TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm";1;"MAX98357A";;;
+"Id","Designator","Footprint","Quantity","Designation","Supplier and ref"
+1,"Battery_3.7V1","PinHeader_1x02_P2.54mm_Vertical",1,"Conn_01x02",""
+2,"C1","C_0805_2012Metric",1,"10µF",""
+3,"C2","C_0805_2012Metric",1,"4.7µF",""
+4,"C3","C_0805_2012Metric",1,"22µF",""
+5,"C4","C_0805_2012Metric",1,"22uF",""
+6,"C5","C_0805_2012Metric",1,"10uF",""
+7,"C6","C_0402_1005Metric",1,"100nF",""
+8,"C7, C8","CP_Radial_D6.3mm_P2.50mm",2,"100µF",""
+9,"D1","LED_D3.0mm",1,"RED",""
+10,"D2","LED_D3.0mm",1,"Green",""
+11,"D3","D_SOD-123",1,"1N5819",""
+12,"J1","PinHeader_2x20_P2.54mm_Vertical",1,"Conn_02x20_Odd_Even",""
+13,"J2","USB_C_Receptacle_GCT_USB4085",1,"USB_C_Receptacle_USB2.0_14P",""
+14,"J3","PinSocket_1x05_P2.54mm_Horizontal",1,"Joystick_Left",""
+15,"J4","PinSocket_1x05_P2.54mm_Horizontal",1,"Joystick_Right",""
+16,"J5","PinHeader_1x02_P2.54mm_Vertical",1,"Display_5V",""
+17,"J6","PinHeader_1x02_P2.54mm_Vertical",1,"Speaker",""
+18,"J7","Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal",1,"AudioJack3_3.5mm",""
+19,"J10, J13","PinHeader_1x12_P1.00mm_Vertical",2,"FCC Connector Left Board",""
+20,"J11, J12","PinHeader_1x12_P1.00mm_Vertical",2,"FCC Connector Right Board",""
+21,"JM1","Joystick Module 40x27mm",1,"Joystick Module Left Board",""
+22,"JM2","Joystick Module 40x27mm",1,"Joystick Module right board",""
+23,"L1","L_Bourns_SRR1260",1,"22uH",""
+24,"R1","R_0402_1005Metric",1,"2K",""
+25,"R2, R3","R_0402_1005Metric",2,"1K",""
+26,"R4","R_0402_1005Metric",1,"100k",""
+27,"R5","R_0402_1005Metric",1,"33k",""
+28,"R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R22, R23, R28, R29","R_0402_1005Metric",14,"10k",""
+29,"R16, R17","R_0402_1005Metric",2,"5.1k",""
+30,"R18, R19","R_0402_1005Metric",2,"4.7k",""
+31,"R20, R21","R_0402_1005Metric",2,"100",""
+32,"R24, R25, R26, R27","R_0402_1005Metric",4,"20k",""
+33,"SW1","SW_Slide_SPDT_Angled_CK_OS102011MA1Q",1,"SW_SPDT",""
+34,"SW2","SW_PUSH_6mm_H5mm",1,"Button_A",""
+35,"SW3","SW_PUSH_6mm_H5mm",1,"Button_B",""
+36,"SW4","SW_PUSH_6mm_H5mm",1,"Button_X",""
+37,"SW5","SW_PUSH_6mm_H5mm",1,"Button_Y",""
+38,"SW6","SW_PUSH_6mm_H5mm",1,"D-pad UP",""
+39,"SW7","SW_PUSH_6mm_H5mm",1,"D-pad DOWN",""
+40,"SW8","SW_PUSH_6mm_H5mm",1,"D-pad LEFT",""
+41,"SW9","SW_PUSH_6mm_H5mm",1,"D-pad RIGHT",""
+42,"SW12","SW_PUSH_6mm_H5mm",1,"Start",""
+43,"SW13","SW_PUSH_6mm_H5mm",1,"Select",""
+44,"U1","SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias",1,"TP4056-42-ESOP8",""
+45,"U2","SOT-23-6",1,"MT3608",""
+46,"U3","TSSOP-10_3x3mm_P0.5mm",1,"ADS1115IDGS",""
+47,"U4","TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm",1,"MAX98357A",""
