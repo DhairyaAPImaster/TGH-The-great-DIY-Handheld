@@ -1,0 +1,71 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,10µF,C_0805_2012Metric,206.09,57.57,180,bottom
+C2,4.7µF,C_0805_2012Metric,186.304315,55.734315,180,bottom
+C3,22µF,C_0805_2012Metric,212.84,69.32,180,bottom
+C4,22uF,C_0805_2012Metric,247.64,77.32,0,bottom
+C5,10uF,C_0805_2012Metric,123.68,68.66,180,bottom
+C6,100nF,C_0402_1005Metric,123.65,64.41,0,bottom
+D3,1N5819,D_SOD-123,240.94,77.32,180,bottom
+L1,22uH,L_Bourns_SRR1260,230.19,77.32,180,bottom
+R1,2K,R_0402_1005Metric,199.744315,59.3,180,bottom
+R2,1K,R_0402_1005Metric,190.744315,62.984315,180,bottom
+R3,1K,R_0402_1005Metric,195.764315,62.984315,180,bottom
+R4,100k,R_0402_1005Metric,225.08,68.57,180,bottom
+R5,33k,R_0402_1005Metric,224.08,64.32,180,bottom
+R6,10k,R_0402_1005Metric,298.345,25.935,-90,bottom
+R7,10k,R_0402_1005Metric,321.345,35.185,90,bottom
+R8,10k,R_0402_1005Metric,288.595,34.685,-90,bottom
+R9,10k,R_0402_1005Metric,298.095,43.685,-90,bottom
+R10,10k,R_0402_1005Metric,42.15,46.47,90,bottom
+R11,10k,R_0402_1005Metric,28.4,28.74,-90,bottom
+R12,10k,R_0402_1005Metric,18.4,37.74,-90,bottom
+R13,10k,R_0402_1005Metric,51.65,37.47,90,bottom
+R14,10k,R_0402_1005Metric,59.42,70.06,180,bottom
+R15,10k,R_0402_1005Metric,59.42,66.31,0,bottom
+R16,5.1k,R_0402_1005Metric,189.74,77.115,180,bottom
+R17,5.1k,R_0402_1005Metric,195.33,77.32,0,bottom
+R18,4.7k,R_0402_1005Metric,94.83,54.82,180,bottom
+R19,4.7k,R_0402_1005Metric,90.83,54.82,180,bottom
+R20,100,R_0402_1005Metric,201.58,16.82,180,bottom
+R21,100,R_0402_1005Metric,201.58,19.32,180,bottom
+R22,10k,R_0402_1005Metric,16.16,15.09,-90,bottom
+R23,10k,R_0402_1005Metric,53.66,14.32,90,bottom
+R24,20k,R_0402_1005Metric,63.9,70.06,0,bottom
+R25,20k,R_0402_1005Metric,63.92,66.31,180,bottom
+R26,20k,R_0402_1005Metric,275.835,63.675,180,bottom
+R27,20k,R_0402_1005Metric,275.855,67.675,0,bottom
+R28,10k,R_0402_1005Metric,280.835,63.675,0,bottom
+R29,10k,R_0402_1005Metric,280.835,67.675,180,bottom
+U1,TP4056-42-ESOP8,SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias,193.279315,57.705,180,bottom
+U2,MT3608,SOT-23-6,219.1025,69.52,180,bottom
+U3,ADS1115IDGS,TSSOP-10_3x3mm_P0.5mm,97.44,50.32,180,bottom
+U4,MAX98357A,TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm,216.09,18.2575,180,bottom
+Battery_3.7V1,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,217.59,58.11,0,top
+C7,100µF,CP_Radial_D6.3mm_P2.50mm,192.34,13.07,180,top
+C8,100µF,CP_Radial_D6.3mm_P2.50mm,192.09,23.57,180,top
+D1,RED,LED_D3.0mm,203.34,83.32,180,top
+D2,Green,LED_D3.0mm,184.34,83.07,180,top
+J1,Conn_02x20_Odd_Even,PinHeader_2x20_P2.54mm_Vertical,114.09,67.42,0,top
+J2,USB_C_Receptacle_USB2.0_14P,USB_C_Receptacle_GCT_USB4085,195.39,80.71,180,top
+J3,Joystick_Left,PinSocket_1x05_P2.54mm_Horizontal,55.41,75.18,0,top
+J4,Joystick_Right,PinSocket_1x05_P2.54mm_Horizontal,286.095,58.675,180,top
+J5,Display_5V,PinHeader_1x02_P2.54mm_Vertical,151.5,79.86,0,top
+J6,Speaker,PinHeader_1x02_P2.54mm_Vertical,207.59,16.82,180,top
+J7,AudioJack3_3.5mm,Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal,174.64,10.92,180,top
+J10,FCC Connector Left Board,PinHeader_1x12_P1.00mm_Vertical,64.41,52.31,0,top
+J11,FCC Connector Right Board,PinHeader_1x12_P1.00mm_Vertical,274.595,47.175,0,top
+J12,FCC Connector Right Board,PinHeader_1x12_P1.00mm_Vertical,256.34,51.82,0,top
+J13,FCC Connector Left Board,PinHeader_1x12_P1.00mm_Vertical,83.39,53.32,0,top
+JM1,Joystick Module Left Board,Joystick Module 40x27mm,317.095,65.425,0,top
+JM2,Joystick Module right board,Joystick Module 40x27mm,21.932488,68.541697,0,top
+SW1,SW_SPDT,SW_Slide_SPDT_Angled_CK_OS102011MA1Q,218.19,84.57,180,top
+SW2,Button_A,SW_PUSH_6mm_H5mm,302.095,28.675,0,top
+SW3,Button_B,SW_PUSH_6mm_H5mm,311.345,37.425,0,top
+SW4,Button_X,SW_PUSH_6mm_H5mm,292.345,37.175,0,top
+SW5,Button_Y,SW_PUSH_6mm_H5mm,301.845,45.925,0,top
+SW6,D-pad UP,SW_PUSH_6mm_H5mm,31.91,48.81,0,top
+SW7,D-pad DOWN,SW_PUSH_6mm_H5mm,31.91,30.81,0,top
+SW8,D-pad LEFT,SW_PUSH_6mm_H5mm,21.91,40.06,0,top
+SW9,D-pad RIGHT,SW_PUSH_6mm_H5mm,41.66,40.06,0,top
+SW12,Start,SW_PUSH_6mm_H5mm,20.41,17.33,0,top
+SW13,Select,SW_PUSH_6mm_H5mm,43.66,17.08,0,top
