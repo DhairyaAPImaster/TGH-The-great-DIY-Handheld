@@ -4,8 +4,44 @@ So this is a project in which i aim to make my own custom retro handheld gaming 
 #here are some specs - 
 **Panelised PCB Dimensions**- 339.82 mm* 102.32 mm
 - So the only KiCAD plugin i used was KiKit to panelise the board other than that the full board was designed by me!!! (this is my first major PCB project)
+
+
+# Here is the other stuff that i need to make the PCB including the components that are not included in the PCBA from JLC along with the links from where i plan on buying the parts - 
+# Bill of Materials (BOM) - The Great (DIY) Handheld:
+### Parts & Tools List
+
+| Name | Purpose | Quantity | Total Cost (USD) | Link | Distributor |
+|:---|:---|:---:|:---:|:---|:---|
+| Tactile Push Button Switch Caps Multicolour | To cover the buttons. | 1 | 2.31 | [Link](https://www.amazon.in/gp/product/B0DCP7J7R7/ref=ox_sc_act_title_1?smid=AOG7U64E0DVL2&psc=1) | Amazon |
+| TP4056 module | To charge | 1 | 0.17 | [Link](https://robu.in/product/tp4056-1a-li-ion-battery-charging-board-micro-usb-with-current-protection-type-c-connector/) | Robu.in |
+| Jumper Wires | To connect the daughter Boards to the motherboard and also to connect the 2 pin connector header pin to the TP4056 module. | 1 | 1.63 | [Link](https://www.amazon.in/Electronic-Spices-Jumper-Female-Multicolor/dp/B0CPFCRCHB/) | Amazon |
+| Solder | I cant solder witout solder and i have like 1cm or so left as i used the rest before my soldering iron short cicuited. | 1 | 7.75 | [Link](https://www.amazon.in/SONEAK-Solder-Rosin-Electrical-Soldering/dp/B084RZWVXY/) | Amazon |
+| Soldering Flux | To help solder and not have cold solder joints. | 1 | 0.83 | [Link](https://www.amazon.in/UNIVERSAL-HUB-Soldering-Electronics-components/dp/B0FV8HHBTN/) | Amazon |
+| Soldering Iron | Mine short circuited and i need to solder a buch of stuff on the pcb which i cant without the iron | 1 | 3.02 | [Link](https://www.amazon.in/Temperature-Adjustable-Soldering-Heating-Extra/dp/B0DPVMRTXG/) | amazon |
+| Soldering Helping hands | Too see what i am soldering and to help solder properly without burning anything by mistake. | 1 | 5.35 | [Link](https://robu.in/product/te-801-multi-function-led-magnifier-pcb-soldering-iron-stand-holder-table-magnifying-glass-35x-12x-w-2-led-light/) | Robu.in |
+| JST SH 2 pin Connector 2mm Pitch | to connect battery and also robu.in has a min order of 10 rupees or 0.10 usd for each component hence i had to add 9 in qty but it is still cheaper than others | 9 | 0.11 | [Link](https://robu.in/product/jst-sh-2-pin-connector-2mm-pitch/) | Robu.in |
+| Mini HDMI To HDMI Cable | to connect pi to display | 1 | 1.3 | [Link](https://robu.in/product/mini-hdmi-hdmi-cable-1-8-meter-round-high-quality-copper-clad-steel-black/) | Robu.in |
+| 40mm 8Ω (ohm) 0.5Watt Power Audio Speaker - Multicolor | to produce sound | 1 | 1.66 | [Link](https://www.amazon.in/Electronic-Spices-Wired-Sound-Speakers/dp/B07MTK843Z) | amazon |
+| PS2 joystick module | Left and right joystick | 2 | 0.79 | [Link](https://www.flyrobo.in/ps2_game_joystick_module_for_arduino) | FlyRobo |
+| 4000mAh 3.7V Micro LiPo Battery pack | To power the device | 1 | 5.64 | [Link](https://robu.in/product/nova-955465-4000mah-3-7v-lipo-battery-pack/) | Robu.in |
+| 100 uF 10V Through Hole Electrolytic Capacitor | headphone blocking on PCB (Note: min order requirement included in qty) | 8 | 0.12 | [Link](https://robu.in/product/100-uf-10v-through-hole-electrolytic-capacitor-pack-of-20/) | Robu.in |
+| 6mm Tactile Push Button Switch 6x6 (Pack of 10) | For buttoning | 1 | 0.14 | [Link](https://robu.in/product/6x6x5-tactile-push-button-switch/) | Robu.in |
+| Slide switch SPDT | To switch on the device | 2 | 0.17 | [Link](https://robu.in/product/1-month-warranty-805/) | Robu.in |
+| 1x5 2.54mm Female Right Angle Single Row Header Strip | For Connecting the left and right joystick Modules | 2 | 0.26 | [Link](https://www.sunrom.com/p/1x5-254mm-female-right-angle-single-row-header-strip) | sunrom.com |
+| 1x2 male pin header 2.54mm | For connecting the TP4056 module and supplying power to display/speaker | 5 | 0.11 | [Link](https://robu.in/product/a2541wv-2p-9t-cjt-1x2-pin-2-54mm-180-single-row-pin-header-rohs/) | Robu.in |
+| 2.54MM 2x20 Pin Female Double Row Straight Long Header Strip | To connect the Pi to the PCB | 1 | 0.86 | [Link](https://robu.in/product/2-54mm-2x20-pin-female-double-row-straight-long-header-strip/) | Robu.in |
+| 5 Inch Touch Screen HDMI Interface | THE SCREEN To See what i am playing | 1 | 26.09 | [Link](https://robu.in/product/5-inch-touch-screen-hdmi-interface-display-module-tft-lcd-800x480-raspberry-pi-2-model-b-touch-pen) | Robu.in |
+| Raspberry Pi Zero 2W | This is basically the Brain of the device | 1 | 18.81 | [Link](https://robu.in/product/raspberry-pi-zero-wireless-wh-pre-soldered-header) | Robu.in |
+| PCBA for bottom SMD components on PCB | PCB SMD component assembly service | 2 | 14.15 | [Link](https://jlcpcb.com) | JLCPCB |
+| PCB (Motherboard, and both daughter boards) | Custom PCBs to hold all components | 5 | 5.37 | [Link](https://jlcpcb.com) | JLCPCB |
+
+
+
+
+
+
 Here are all the components of the PCB from the BOM i generated from KiCAD -
-## Bill of Materials From KICAD (BOM):
+## Bill of Materials only for PCB (BOM):
 ### Panel Components (PCB Parts)
 
 | Qty | Component / Value | Designators | Footprint |
@@ -60,34 +96,6 @@ Here are all the components of the PCB from the BOM i generated from KiCAD -
 # _____________________________________________________________________________________________________________________
 - So i plan on using JLCPCB to actually get my boards manufactured and i will be using PCBA for the bottom SMD components
 # _____________________________________________________________________________________________________________________
-
-# Here is the other stuff that i need to make the PCB including the components that are not included in the PCBA from JLC along with the links from where i plan on buying the parts - 
-# Bill of Materials (BOM) - The Great (DIY) Handheld:
-### Parts & Tools List
-
-| Qty | Name | Purpose | Link |
-|:---:|:---|:---|:---|
-| 1 | TP4056 module | To charge | [Link](https://robu.in/product/tp4056-1a-li-ion-battery-charging-board-micro-usb-with-current-protection-type-c-connector/) |
-| 1 | Jumper Wires | To connect daughter boards and the TP4056 module | [Link](https://www.amazon.in/Electronic-Spices-Jumper-Female-Multicolor/dp/B0CPFCRCHB/) |
-| 1 | Solder | Soldering material | [Link](https://www.amazon.in/SONEAK-Solder-Rosin-Electrical-Soldering/dp/B084RZWVXY/) |
-| 1 | Soldering Flux | Helps prevent cold solder joints | [Link](https://www.amazon.in/UNIVERSAL-HUB-Soldering-Electronics-components/dp/B0FV8HHBTN/) |
-| 1 | Soldering Iron | Temperature adjustable iron | [Link](https://www.amazon.in/Temperature-Adjustable-Soldering-Heating-Extra/dp/B0DPVMRTXG/) |
-| 1 | Soldering Helping hands | Magnifier and PCB holder | [Link](https://robu.in/product/te-801-multi-function-led-magnifier-pcb-soldering-iron-stand-holder-table-magnifying-glass-35x-12x-w-2-led-light/) |
-| 9 | JST SH 2-pin Connector | Battery connection (2mm Pitch) | [Link](https://robu.in/product/jst-sh-2-pin-connector-2mm-pitch/) |
-| 1 | Mini HDMI to HDMI Cable | Connect Pi to display | [Link](https://robu.in/product/mini-hdmi-hdmi-cable-1-8-meter-round-high-quality-copper-clad-steel-black/) |
-| 1 | 40mm 8Ω Speaker | Audio output | [Link](https://www.amazon.in/Electronic-Spices-Wired-Sound-Speakers/dp/B07MTK843Z) |
-| 2 | PS2 joystick module | Left and right analog sticks | [Link](https://www.flyrobo.in/ps2_game_joystick_module_for_arduino) |
-| 1 | 4000mAh 3.7V LiPo Battery | Main power source | [Link](https://robu.in/product/nova-955465-4000mah-3-7v-lipo-battery-pack/) |
-| 8 | 100 uF 10V Capacitor | Audio/Headphone blocking | [Link](https://robu.in/product/100-uf-10v-through-hole-electrolytic-capacitor-pack-of-20/) |
-| 1 | 6mm Tactile Buttons (10pk)| to click click | [Link](https://robu.in/product/6x6x5-tactile-push-button-switch/) |
-| 2 | Slide switch SPDT | Power switch | [Link](https://robu.in/product/1-month-warranty-805/) |
-| 2 | 1x5 Female Header (RA) | Joystick module connectors | [Link](https://www.sunrom.com/p/1x5-254mm-female-right-angle-single-row-header-strip) |
-| 5 | 1x2 Male Pin Header | Power and peripheral connection | [Link](https://robu.in/product/a2541wv-2p-9t-cjt-1x2-pin-2-54mm-180-single-row-pin-header-rohs/) |
-| 1 | 2x20 Female Header | Raspberry Pi GPIO connection | [Link](https://robu.in/product/2-54mm-2x20-pin-female-double-row-straight-long-header-strip/) |
-| 1 | 5 Inch Touch Screen | Display unit | [Link](https://robu.in/product/5-inch-touch-screen-hdmi-interface-display-module-tft-lcd-800x480-raspberry-pi-2-model-b-touch-pen) |
-| 1 | Raspberry Pi Zero 2W | Main processor/Brain | [Link](https://robu.in/product/raspberry-pi-zero-wireless-wh-pre-soldered-header) |
-| 2 | PCBA (SMD Assembly) | Pre-assembled SMD components | [Link](https://jlcpcb.com) |
-| 5 | Custom PCBs | Motherboard and daughter boards | [Link](https://jlcpcb.com) |
 
 
 
