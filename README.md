@@ -40,57 +40,6 @@ So this is a project in which i aim to make my own custom retro handheld gaming 
 
 
 
-Here are all the components of the PCB from the BOM i generated from KiCAD -
-## Bill of Materials only for PCB (BOM):
-### Panel Components (PCB Parts)
-
-| Qty | Component / Value | Designators | Footprint |
-|:---:|:------------------|:------------|:----------|
-| 1 | Conn_01x02 | Battery_3.7V1 | PinHeader_1x02_P2.54mm_Vertical |
-| 1 | 22µF | C3 | C_0805_2012Metric |
-| 1 | 22uF | C4 | C_0805_2012Metric |
-| 1 | 10uF | C5 | C_0805_2012Metric |
-| 1 | 100nF | C6 | C_0402_1005Metric |
-| 2 | 100µF | C7, C8 | CP_Radial_D6.3mm_P2.50mm |
-| 1 | 1N5819 | D3 | D_SOD-123 |
-| 1 | Conn_02x20 (Odd/Even) | J1 | PinHeader_2x20_P2.54mm_Vertical |
-| 1 | TP4056_Module | J2 | PinHeader_1x02_P2.54mm_Vertical |
-| 1 | Joystick_Left | J3 | PinSocket_1x05_P2.54mm_Horizontal |
-| 1 | Joystick_Right | J4 | PinSocket_1x05_P2.54mm_Horizontal |
-| 1 | Display_5V | J5 | PinHeader_1x02_P2.54mm_Vertical |
-| 1 | Speaker | J6 | PinHeader_1x02_P2.54mm_Vertical |
-| 1 | AudioJack3_3.5mm | J7 | Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal |
-| 2 | Connector Left Board | J10, J13 | PinHeader_1x12_P1.00mm_Vertical |
-| 1 | Connector Right Board | J11 | PinHeader_1x12_P1.00mm_Vertical |
-| 1 | Connector Right Board | J12 | PinHeader_1x12_P1.00mm_Vertical |
-| 1 | Joystick Module (L) | JM1 | Joystick Module 40x27mm |
-| 1 | Joystick Module (R) | JM2 | Joystick Module 40x27mm |
-| 1 | 22uH | L1 | L_Bourns_SRR1260 |
-| 1 | 100k Resistor | R4 | R_0402_1005Metric |
-| 1 | 33k Resistor | R5 | R_0402_1005Metric |
-| 14| 10k Resistor | R6-15, R22-23, R28-29 | R_0402_1005Metric |
-| 2 | 5.1k Resistor | R16, R17 | R_0402_1005Metric |
-| 2 | 4.7k Resistor | R18, R19 | R_0402_1005Metric |
-| 2 | 100R Resistor | R20, R21 | R_0402_1005Metric |
-| 4 | 20k Resistor | R24, R25, R26, R27 | R_0402_1005Metric |
-| 1 | SW_SPDT | SW1 | SW_Slide_SPDT_Angled |
-| 1 | Button_A | SW2 | SW_PUSH_6mm_H5mm |
-| 1 | Button_B | SW3 | SW_PUSH_6mm_H5mm |
-| 1 | Button_X | SW4 | SW_PUSH_6mm_H5mm |
-| 1 | Button_Y | SW5 | SW_PUSH_6mm_H5mm |
-| 1 | D-pad UP | SW6 | SW_PUSH_6mm_H5mm |
-| 1 | D-pad DOWN | SW7 | SW_PUSH_6mm_H5mm |
-| 1 | D-pad LEFT | SW8 | SW_PUSH_6mm_H5mm |
-| 1 | D-pad RIGHT | SW9 | SW_PUSH_6mm_H5mm |
-| 1 | Start | SW12 | SW_PUSH_6mm_H5mm |
-| 1 | Select | SW13 | SW_PUSH_6mm_H5mm |
-| 1 | ADS1115IDGS | U3 | TSSOP-10_3x3mm_P0.5mm |
-| 1 | MAX98357A | U4 | TQFN-16-1EP_3x3mm_P0.5mm |
-
-
-
-
-
 
 
 # _____________________________________________________________________________________________________________________
