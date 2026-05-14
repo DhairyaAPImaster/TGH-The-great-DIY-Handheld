@@ -1,6 +1,6 @@
 # TGH - THE GREAT (DIY) HANDHELD
 So this is a project in which i aim to make my own custom retro handheld gaming device with a custom pcb powered by a pi zero 2w.
-
+**BTW NOTE:** so um the case shall be printed from someone who was willing to print it from the slack channel - #printing-legion
 #here are some specs - 
 **Panelised PCB Dimensions**- 339.82 mm* 102.32 mm
 - So the only KiCAD plugin i used was KiKit to panelise the board other than that the full board was designed by me!!! (this is my first major PCB project)
