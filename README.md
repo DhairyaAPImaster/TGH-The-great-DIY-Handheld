@@ -79,7 +79,7 @@ Here are all the components of the PCB from the BOM i generated from KiCAD -
 | 2 | PS2 joystick module | Left and right analog sticks | [Link](https://www.flyrobo.in/ps2_game_joystick_module_for_arduino) |
 | 1 | 4000mAh 3.7V LiPo Battery | Main power source | [Link](https://robu.in/product/nova-955465-4000mah-3-7v-lipo-battery-pack/) |
 | 8 | 100 uF 10V Capacitor | Audio/Headphone blocking | [Link](https://robu.in/product/100-uf-10v-through-hole-electrolytic-capacitor-pack-of-20/) |
-| 1 | 6mm Tactile Buttons (10pk)| Main interface buttons | [Link](https://robu.in/product/6x6x5-tactile-push-button-switch/) |
+| 1 | 6mm Tactile Buttons (10pk)| to click click | [Link](https://robu.in/product/6x6x5-tactile-push-button-switch/) |
 | 2 | Slide switch SPDT | Power switch | [Link](https://robu.in/product/1-month-warranty-805/) |
 | 2 | 1x5 Female Header (RA) | Joystick module connectors | [Link](https://www.sunrom.com/p/1x5-254mm-female-right-angle-single-row-header-strip) |
 | 5 | 1x2 Male Pin Header | Power and peripheral connection | [Link](https://robu.in/product/a2541wv-2p-9t-cjt-1x2-pin-2-54mm-180-single-row-pin-header-rohs/) |
