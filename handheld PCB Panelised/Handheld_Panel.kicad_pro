@@ -259,269 +259,12 @@
   "cvpcb": {
     "equivalence_files": []
   },
-  "erc": {
-    "erc_exclusions": [
-      [
-        "isolated_pin_label|1600200|1041400|fff5dfd8-b75f-42fc-b5c3-326ecb62471f|00000000-0000-0000-0000-000000000000|/1ce14f08-743d-4424-a454-1ba892760246/3da37b3d-1e7c-4eab-9de9-bd60c04e87d3||",
-        ""
-      ],
-      [
-        "isolated_pin_label|4279900|2400300|a343a989-7755-43b9-aff3-b68883a78ae7|00000000-0000-0000-0000-000000000000|/1ce14f08-743d-4424-a454-1ba892760246||",
-        ""
-      ],
-      [
-        "isolated_pin_label|4279900|2425700|0f53e5ec-4658-45f0-929a-52f662811db0|00000000-0000-0000-0000-000000000000|/1ce14f08-743d-4424-a454-1ba892760246||",
-        ""
-      ],
-      [
-        "isolated_pin_label|4279900|2451100|a2ee12e2-9d98-4901-aedd-acdd69c089a3|00000000-0000-0000-0000-000000000000|/1ce14f08-743d-4424-a454-1ba892760246||",
-        ""
-      ],
-      [
-        "isolated_pin_label|4699000|2374900|2fb07dea-e4e5-4d38-9e9e-c54511259d5b|00000000-0000-0000-0000-000000000000|/1ce14f08-743d-4424-a454-1ba892760246||",
-        ""
-      ],
-      [
-        "isolated_pin_label|4711700|2451100|92413229-3781-4608-aae1-da689cc473e0|00000000-0000-0000-0000-000000000000|/1ce14f08-743d-4424-a454-1ba892760246||",
-        ""
-      ],
-      [
-        "isolated_pin_label|647700|355600|4550ff9b-c924-4aba-adfc-df386dda86b2|00000000-0000-0000-0000-000000000000|/1ce14f08-743d-4424-a454-1ba892760246/b77b50d8-3a9a-4af5-9747-06972a5aed60||",
-        ""
-      ],
-      [
-        "pin_to_pin|4660900|1752600|fdc318f1-58fd-47e8-95db-2ee5b5216a31|1d87da76-3f5e-46f2-ba81-ba8620525664|/1ce14f08-743d-4424-a454-1ba892760246|/1ce14f08-743d-4424-a454-1ba892760246|/1ce14f08-743d-4424-a454-1ba892760246",
-        ""
-      ]
-    ],
-    "meta": {
-      "version": 0
-    },
-    "pin_map": [
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        2
-      ],
-      [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        2,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        2,
-        0,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ]
-    ],
-    "rule_severities": {
-      "bus_definition_conflict": "error",
-      "bus_entry_needed": "error",
-      "bus_to_bus_conflict": "error",
-      "bus_to_net_conflict": "error",
-      "different_unit_footprint": "error",
-      "different_unit_net": "error",
-      "duplicate_reference": "error",
-      "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
-      "extra_units": "error",
-      "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
-      "ground_pin_not_ground": "warning",
-      "hier_label_mismatch": "error",
-      "isolated_pin_label": "warning",
-      "label_dangling": "error",
-      "label_multiple_wires": "warning",
-      "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
-      "missing_bidi_pin": "warning",
-      "missing_input_pin": "warning",
-      "missing_power_pin": "error",
-      "missing_unit": "warning",
-      "multiple_net_names": "warning",
-      "net_not_bus_member": "warning",
-      "no_connect_connected": "warning",
-      "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "ignore",
-      "same_local_global_label": "warning",
-      "similar_label_and_power": "warning",
-      "similar_labels": "warning",
-      "similar_power": "warning",
-      "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
-      "stacked_pin_name": "warning",
-      "unannotated": "error",
-      "unconnected_wire_endpoint": "ignore",
-      "undefined_netclass": "error",
-      "unit_value_mismatch": "error",
-      "unresolved_variable": "error",
-      "wire_dangling": "error"
-    }
-  },
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Handheld Gaming device PCB.kicad_pro",
+    "filename": "Handheld_Panel.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -544,6 +287,25 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -551,171 +313,340 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Right_Daughter_Board/GPIO22"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/SPI_MISO"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-GND"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J6-Pin_1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Right_Daughter_Board/GPIO17"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-Pin_17-Pad17)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/GPIO4"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/I2C_SCL"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-Pin_1-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/TOUCH_IRQ"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(SW1-C-Pad3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/GPIO6"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/I2S_LRCLK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C7-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-+3.3V"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-+5V"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/I2S_BCLK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/GPIO23"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/GPIO12"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J4-Pin_3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-Pin_38-Pad38)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Right_Daughter_Board/JOY_R_Y"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/JOY_R_X"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/I2S_DIN"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Left_Daughter_Board/GPIO5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C8-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/VBAT+"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4-NC-Pad12)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J3-Pin_3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/GPIO25"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Left_Daughter_Board/GPIO4"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/JOY_L_Y"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-Pin_28-Pad28)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/GPIO22"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Left_Daughter_Board/JOY_L_Y"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U2-FB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/GPIO5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J3-Pin_4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/GPIO27"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J4-Pin_4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/TOUCH_CS"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4-NC-Pad5)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/SPI_MOSI"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4-NC-Pad13)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "slash"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U2-IN)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/VBAT_SWITCHED"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/SPI_SCLK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/GPIO17"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/I2C_SDA"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/JOY_L_X"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-Pin_39-Pad39)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-Pin_27-Pad27)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Left_Daughter_Board/GPIO6"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-Pin_8-Pad8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/GPIO26"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Right_Daughter_Board/GPIO23"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Left_Daughter_Board/JOY_L_X"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/JOY_R_Y"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Left_Daughter_Board/GPIO26"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-Pin_26-Pad26)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/GPIO16"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/+5V"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U4-NC-Pad6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Right_Daughter_Board/GPIO16"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-Pin_10-Pad10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J6-Pin_2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Left_Daughter_Board/GPIO13"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C8-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Right_Daughter_Board/JOY_R_X"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C7-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Right_Daughter_Board/GPIO27"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2-NC-Pad6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D3-A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/GPIO13"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Left_Daughter_Board/GPIO12"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Left_Daughter_Board/GPIO25"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../../Main PCB Fabrication outputs/",
+      "plot": "../Main panelised PCB Fabrication outputs/",
       "specctra_dsn": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
-    "annotation": {
-      "method": 0,
-      "sort_order": 0
-    },
-    "bom_export_filename": "D:\\Dhairya\\CAD\\KiCAD Projects\\Handheld Gaming device\\PCB\\BOM.csv",
-    "bom_fmt_presets": [],
-    "bom_fmt_settings": {
-      "field_delimiter": ",",
-      "keep_line_breaks": false,
-      "keep_tabs": false,
-      "name": "CSV",
-      "ref_delimiter": ",",
-      "ref_range_delimiter": "",
-      "string_delimiter": "\""
-    },
-    "bom_presets": [],
-    "bom_settings": {
-      "exclude_dnp": false,
-      "fields_ordered": [
-        {
-          "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        }
-      ],
-      "filter_string": "",
-      "group_symbols": true,
-      "include_excluded_from_bom": true,
-      "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
-    },
     "bus_aliases": {},
-    "connection_grid_size": 50.0,
-    "drawing": {
-      "dashed_lines_dash_length_ratio": 12.0,
-      "dashed_lines_gap_length_ratio": 3.0,
-      "default_line_thickness": 6.0,
-      "default_text_size": 50.0,
-      "field_names": [],
-      "hop_over_size_choice": 0,
-      "intersheets_ref_own_page": false,
-      "intersheets_ref_prefix": "",
-      "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
-      "intersheets_ref_suffix": "",
-      "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
-      "operating_point_overlay_i_precision": 3,
-      "operating_point_overlay_i_range": "~A",
-      "operating_point_overlay_v_precision": 3,
-      "operating_point_overlay_v_range": "~V",
-      "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
-    },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
-    "meta": {
-      "version": 1
-    },
-    "page_layout_descr_file": "",
-    "plot_directory": "",
-    "reuse_designators": true,
-    "subpart_first_id": 65,
-    "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Handheld Gaming device PCB.kicad_sch",
-        "name": "Root",
-        "uuid": "1ce14f08-743d-4424-a454-1ba892760246"
+        "filename": "Handheld_Panel.kicad_sch",
+        "name": "Handheld_Panel",
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
-    ],
-    "used_designators": "JM1-2,J2,#PWR3",
-    "variants": []
-  },
-  "sheets": [
-    [
-      "1ce14f08-743d-4424-a454-1ba892760246",
-      "Root"
-    ],
-    [
-      "3da37b3d-1e7c-4eab-9de9-bd60c04e87d3",
-      "Right_Daughter_Board"
-    ],
-    [
-      "b77b50d8-3a9a-4af5-9747-06972a5aed60",
-      "Left_Daughter_Board"
     ]
-  ],
+  },
+  "sheets": [],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
