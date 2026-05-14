@@ -35,7 +35,7 @@ So this is a project in which i aim to make my own custom retro handheld gaming 
 | Raspberry Pi Zero 2W | This is basically the Brain of the device | 1 | 18.81 | [Link](https://robu.in/product/raspberry-pi-zero-wireless-wh-pre-soldered-header) | Robu.in |
 | PCBA for bottom SMD components on PCB | PCB SMD component assembly service | 2 | 14.15 | [Link](https://jlcpcb.com) | JLCPCB |
 | PCB (Motherboard, and both daughter boards) | Custom PCBs to hold all components | 5 | 5.37 | [Link](https://jlcpcb.com) | JLCPCB |
-| TOTAL- 199.44 USD | TAX- 2 USD || SHIPPING - 24 USD |||
+| TOTAL- 199.44 USD | TAX- 2 USD || SHIPPING - 21.31 USD |||
 
 
 
