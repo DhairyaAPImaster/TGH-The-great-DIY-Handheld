@@ -12,6 +12,7 @@ So this is a project in which i aim to make my own custom retro handheld gaming 
 
 | Name | Purpose | Quantity | Total Cost (USD) | Link | Distributor |
 |:---|:---|:---:|:---:|:---|:---|
+| Isopropyl Alcohol | to clean the board after i solder the components so that the residue flux does not corrode the board slowly. | 1 | 2.69 | [Link](https://www.amazon.in/gp/aw/d/B0DXLCF467/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c86f6646ab53e02a75d2c7936d94b9e8&hsa_cr_id=0&qid=1778756676&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=ULcGLOQ6dH&ref_=sbx_s_sparkle_sbtcd_asin_0_title&pd_rd_w=HfChB&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=EFF0ZSWMT934R4D0TNBS&pd_rd_wg=doBkY&pd_rd_r=d02561c6-e886-41f6-b583-cc3dacaa126e&th=1) | Amazon |
 | Tactile Push Button Switch Caps Multicolour | To cover the buttons. | 1 | 2.31 | [Link](https://www.amazon.in/gp/product/B0DCP7J7R7/ref=ox_sc_act_title_1?smid=AOG7U64E0DVL2&psc=1) | Amazon |
 | TP4056 module | To charge | 1 | 0.17 | [Link](https://robu.in/product/tp4056-1a-li-ion-battery-charging-board-micro-usb-with-current-protection-type-c-connector/) | Robu.in |
 | Jumper Wires | To connect the daughter Boards to the motherboard and also to connect the 2 pin connector header pin to the TP4056 module. | 1 | 1.63 | [Link](https://www.amazon.in/Electronic-Spices-Jumper-Female-Multicolor/dp/B0CPFCRCHB/) | Amazon |
