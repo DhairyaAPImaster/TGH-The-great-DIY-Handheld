@@ -5,6 +5,14 @@ So this is a project in which i aim to make my own custom retro handheld gaming 
 **Panelised PCB Dimensions**- 339.82 mm* 102.32 mm
 - So the only KiCAD plugin i used was KiKit to panelise the board other than that the full board was designed by me!!! (this is my first major PCB project)
 
+# Firmware- 
+So i have made a custom python launcher so basically it runs on top of pi os lite allows one to play games using a controller. Since i have joysticks i needed a way for the software to actually recognise it and allow me to play on it properlly now retropie can do that but making a custom programe just is better. The software detects Game ROM's from the folder ROMS where one can add the Game ROMS depending on the type and the software detects it and allows u to open and play it on the pi as the PI OS LITE has - these great features - RetroArch (emulators) and Auto-start on boot so yes it shall give the perfect handheld feel. 
+**Note - You will be unable to play the game ROM's on PC even with the software as the Game ROMS will open on the pi using the in built - RetroArch (emulators). On PC one will only be able to test the controlls using the arrow keys but will need a pi with Pi OS lite to run the games themselves.**
+
+Here are the images of the Python launcher- 
+<img width="596" height="380" alt="Screenshot 2026-05-16 101537" src="https://github.com/user-attachments/assets/50ca2aad-e048-461b-80f5-144a3527e523" />
+<img width="594" height="373" alt="Screenshot 2026-05-16 101612" src="https://github.com/user-attachments/assets/fedb4bb0-56d2-4fdf-8226-c38b905662e9" />
+
 
 # Here is the other stuff that i need to make the PCB including the components that are not included in the PCBA from JLC along with the links from where i plan on buying the parts - 
 # Bill of Materials (BOM) - The Great (DIY) Handheld:
@@ -48,9 +56,12 @@ So this is a project in which i aim to make my own custom retro handheld gaming 
 - So i plan on using JLCPCB to actually get my boards manufactured and i will be using PCBA for the bottom SMD components
 # _____________________________________________________________________________________________________________________
 
+# NOTE FOR The CAD model -
+**it has spacers that i will attatch the pcb to. The spacers are a little big as i can cut them if they are too big but cant do anything if they are too small so hence the spacers on the bottom case are 9mm in height as i can cut them as needed.** 
 
-
-# BTW HERE ARE SOME PICS OF THE PCB THAT I TOOK THROUGHOUT DESIGNING IT(PCB and CAD CASE MODEL)- 
+# BTW HERE ARE SOME PICS OF THE PCB THAT I TOOK THROUGHOUT DESIGNING IT(PCB and CAD CASE MODEL<img width="959" height="539" alt="Screenshot 2026-05-16 121953" src="https://github.com/user-attachments/assets/27385dfd-7aac-427e-ace4-fc55b9ab69fc" />
+<img width="520" height="233" alt="Screenshot 2026-05-16 123145" src="https://github.com/user-attachments/assets/03c8cef9-d0f8-40bd-a7da-b712e0eb5b96" />
+)- 
 <img width="533" height="220" alt="Screenshot 2026-05-10 230008" src="https://github.com/user-attachments/assets/07351982-c047-4389-aff6-f1acf80b013c" />
 <img width="795" height="300" alt="Screenshot 2026-05-09 170451" src="https://github.com/user-attachments/assets/d3c5e589-1971-4ace-8ef0-f19d54ade833" />
 <img width="793" height="347" alt="Screenshot 2026-05-09 165009" src="https://github.com/user-attachments/assets/2fd9378b-740e-40db-beeb-ff2c1fc88893" />
