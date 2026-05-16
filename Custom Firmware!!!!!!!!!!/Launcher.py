@@ -1,9 +1,4 @@
-"""
-TGH - The Great Handheld
-Custom Game Launcher v3.0
-Raspberry Pi Zero 2W | 800x480 Display
-By DK
-"""
+"""TGH custom game launcher for the handheld build."""
 
 import pygame
 import subprocess
@@ -13,20 +8,14 @@ import time
 import math
 import random
 import threading
-
-# =============================================
-# HARDWARE DETECTION
-# =============================================
-
+# Hardware detection
 GPIO_AVAILABLE = False
 ADS_AVAILABLE  = False
-
 try:
     import RPi.GPIO as GPIO
     GPIO_AVAILABLE = True
 except ImportError:
     pass
-
 try:
     import board
     import busio
@@ -35,17 +24,13 @@ try:
     ADS_AVAILABLE = True
 except ImportError:
     pass
-
-# =============================================
-# CONFIGURATION
-# =============================================
-
+# Configuration
 # ROM paths
-ROMS_PATH   = "/home/pi/roms" if GPIO_AVAILABLE else "roms"
-SAVES_PATH  = "/home/pi/saves" if GPIO_AVAILABLE else "saves"
-STATES_PATH = "/home/pi/states" if GPIO_AVAILABLE else "states"
-
-# RetroArch
+BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
+ROMS_PATH   = "/home/pi/roms" if GPIO_AVAILABLE else os.path.join(BASE_DIR, "roms")
+SAVES_PATH  = "/home/pi/saves" if GPIO_AVAILABLE else os.path.join(BASE_DIR, "saves")
+STATES_PATH = "/home/pi/states" if GPIO_AVAILABLE else os.path.join(BASE_DIR, "states")
+# RetroArch path for Pi OS Lite
 RETROARCH_PATH = "/usr/bin/retroarch"
 CORES = {
     "NES":  "/opt/cores/fceumm_libretro.so",
@@ -56,16 +41,11 @@ CORES = {
     "GEN":  "/opt/cores/genesis_plus_gx_libretro.so",
     "SMS":  "/opt/cores/genesis_plus_gx_libretro.so",
 }
-
-# Display
+# Display info
 SCREEN_WIDTH  = 800
 SCREEN_HEIGHT = 480
 FPS           = 60
-
-# =============================================
-# GPIO PIN MAPPING
-# =============================================
-
+# GPIO pin mapping
 BTN_UP    = 5
 BTN_DOWN  = 6
 BTN_LEFT  = 13
@@ -76,45 +56,29 @@ BTN_X     = 22
 BTN_Y     = 23
 BTN_START = 4
 BTN_SEL   = 25
-BTN_L1    = 12   # Left joystick click
-BTN_R1    = 16   # Right joystick click
+BTN_L1    = 12   # Left joystick button
+BTN_R1    = 16   # Right joystick button
 
 ALL_BTNS = [BTN_UP, BTN_DOWN, BTN_LEFT, BTN_RIGHT,
             BTN_A, BTN_B, BTN_X, BTN_Y,
             BTN_START, BTN_SEL, BTN_L1, BTN_R1]
-
-# =============================================
-# JOYSTICK CONFIG (ADS1115)
-# =============================================
-
 # ADS1115 channel mapping
 JOY_L_X_CH = 0   # AIN0
 JOY_L_Y_CH = 1   # AIN1
 JOY_R_X_CH = 2   # AIN2
 JOY_R_Y_CH = 3   # AIN3
-
-# Joystick deadzone (0.0 - 1.0)
 JOY_DEADZONE = 0.25
-
 # Joystick center value (ADS1115 at 3.3V input = ~13107 at center with 5V joystick via divider)
 JOY_CENTER   = 13107
 JOY_MAX      = 26214
-
-# =============================================
-# AUDIO CONFIG
-# =============================================
-
+# AUDIO
 AUDIO_ENABLED  = True
 AUDIO_FREQ     = 44100
 AUDIO_SIZE     = -16
 AUDIO_CHANNELS = 2
 AUDIO_BUFFER   = 512
 VOLUME         = 0.8
-
-# =============================================
-# COLORS
-# =============================================
-
+# Color palette
 C_BG      = (12,  12,  20)
 C_WHITE   = (255, 255, 255)
 C_GRAY    = (130, 130, 150)
@@ -125,11 +89,7 @@ C_GREEN   = (80,  200, 100)
 C_RED     = (220, 70,  70)
 C_YELLOW  = (255, 200, 50)
 C_BLUE    = (80,  120, 200)
-
-# =============================================
-# SYSTEM DEFINITIONS
-# =============================================
-
+# Systems
 SYSTEMS = [
     {"id": "NES",  "short": "NES",
      "name": "Nintendo\nEntertainment\nSystem",
@@ -167,11 +127,7 @@ SYSTEMS = [
      "ext": [".sms"],
      "year": "1985"},
 ]
-
-# =============================================
-# HELPERS
-# =============================================
-
+# Helpers
 def lerp(a, b, t):
     return a + (b - a) * t
 
@@ -207,11 +163,7 @@ def get_cpu_temp():
             return int(f.read().strip()) // 1000
     except:
         return None
-
-# =============================================
-# AUDIO MANAGER
-# =============================================
-
+# Audio manager
 class AudioManager:
     def __init__(self):
         self.enabled = False
@@ -228,32 +180,32 @@ class AudioManager:
                 print(f"Audio init failed: {e}")
 
     def _gen_sounds(self):
-        """Generate simple beep sounds using pygame."""
+        """Build the short UI sounds."""
         if not self.enabled:
             return
         try:
-            # Navigate sound - short beep
+            # Navigation
             self.sounds["nav"]    = self._make_beep(440, 0.05)
-            # Select sound - higher beep
+            # Select
             self.sounds["select"] = self._make_beep(880, 0.08)
-            # Back sound - lower beep
+            # Back
             self.sounds["back"]   = self._make_beep(220, 0.07)
-            # Launch sound - ascending beeps
+            # Launch
             self.sounds["launch"] = self._make_beep(660, 0.15)
-            # Error sound
+            # Error
             self.sounds["error"]  = self._make_beep(150, 0.1)
         except Exception as e:
             print(f"Sound gen failed: {e}")
 
     def _make_beep(self, freq, duration):
-        """Generate a simple sine wave beep."""
+        """Create a short sine-wave beep."""
         import numpy as np
         sample_rate = AUDIO_FREQ
         samples     = int(sample_rate * duration)
         t           = [i / sample_rate for i in range(samples)]
         wave        = [int(32767 * 0.3 * math.sin(2 * math.pi * freq * s))
                        for s in t]
-        # Fade out
+        # Fade out the tail.
         for i in range(min(100, samples)):
             wave[samples-1-i] = int(wave[samples-1-i] * (i/100))
         buf = bytes(sum(([v & 0xFF, (v >> 8) & 0xFF] for v in wave), []))
@@ -272,11 +224,7 @@ class AudioManager:
         self.volume = clamp(vol, 0.0, 1.0)
         for s in self.sounds.values():
             s.set_volume(self.volume)
-
-# =============================================
-# JOYSTICK MANAGER (ADS1115)
-# =============================================
-
+# Joystick manager
 class JoystickManager:
     def __init__(self):
         self.available = False
@@ -301,7 +249,7 @@ class JoystickManager:
                 print(f"ADS1115 init failed: {e}")
 
     def _read_axis(self, channel):
-        """Read and normalize axis value to -1.0 to 1.0."""
+        """Read and normalize an axis to -1.0..1.0."""
         try:
             raw = channel.value
             norm = (raw - JOY_CENTER) / JOY_MAX
@@ -321,7 +269,7 @@ class JoystickManager:
         self.ry = self._read_axis(self.ch_ry)
 
     def get_direction(self):
-        """Return directional input from left joystick."""
+        """Return a direction from the left stick."""
         if not self.available:
             return None
         if self._dir_timer > 0:
@@ -340,11 +288,7 @@ class JoystickManager:
             self._dir_timer = 15
             return "RIGHT"
         return None
-
-# =============================================
-# GPIO MANAGER
-# =============================================
-
+# GPIO manager
 class GPIOManager:
     def __init__(self):
         self.available = GPIO_AVAILABLE
@@ -367,13 +311,13 @@ class GPIOManager:
                 self._state[pin] = GPIO.input(pin)
 
     def pressed(self, pin):
-        """Returns True if button was just pressed this frame."""
+        """True when the button transitions from released to pressed."""
         if not self.available or not pin:
             return False
         return not self._state[pin] and self._prev[pin]
 
     def held(self, pin):
-        """Returns True if button is currently held."""
+        """True while the button is held down."""
         if not self.available or not pin:
             return False
         return not self._state[pin]
@@ -381,11 +325,7 @@ class GPIOManager:
     def cleanup(self):
         if self.available:
             GPIO.cleanup()
-
-# =============================================
-# MAIN LAUNCHER
-# =============================================
-
+# Main launcher
 class Launcher:
     def __init__(self):
         pygame.init()
@@ -410,7 +350,6 @@ class Launcher:
         self.audio = AudioManager()
 
         # State machine
-        # States: system_select | game_select | library | settings | confirm_launch
         self.state      = "system_select"
 
         # System carousel
@@ -437,7 +376,7 @@ class Launcher:
         # Confirm launch
         self.confirm_sel = 0  # 0=Yes 1=No
 
-        # Stars background
+        # Star field
         self.stars = [
             (random.randint(0, SCREEN_WIDTH),
              random.randint(0, SCREEN_HEIGHT),
@@ -450,7 +389,7 @@ class Launcher:
         self.reload_games()
         print("TGH Launcher initialized!")
 
-    # ---- SETUP ----
+    # Setup
 
     def ensure_folders(self):
         for s in SYSTEMS:
@@ -468,8 +407,7 @@ class Launcher:
         self.notif_text  = text
         self.notif_timer = duration
 
-    # ---- INPUT ----
-
+    # Input
     def handle_input(self):
         if self.cooldown > 0:
             self.cooldown -= 1
@@ -478,7 +416,7 @@ class Launcher:
         self.gpio.update()
         self.joy.update()
 
-        # Pygame events (keyboard for PC testing)
+        # Pygame events for PC testing
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return False
@@ -584,23 +522,23 @@ class Launcher:
         elif self.gpio.pressed(BTN_RIGHT):
             self._handle_direction("RIGHT")
 
-        # A button - Select/Confirm
+        # A button - select/confirm
         if self.gpio.pressed(BTN_A):
             self._action_select()
             self.cooldown = 15
 
-        # B button - Back
+        # B button - back
         if self.gpio.pressed(BTN_B):
             self._action_back()
             self.cooldown = 15
 
-        # Start - Go to game select
+        # Start - go to game select
         if self.gpio.pressed(BTN_START):
             if self.state == "system_select":
                 self._action_select()
             self.cooldown = 15
 
-        # Select - Go to library
+        # Select - toggle library
         if self.gpio.pressed(BTN_SEL):
             if self.state != "library":
                 self.state = "library"
@@ -610,25 +548,25 @@ class Launcher:
                 self.audio.play("back")
             self.cooldown = 15
 
-        # X button - Settings
+        # X button - settings
         if self.gpio.pressed(BTN_X):
             if self.state != "settings":
                 self.state = "settings"
                 self.audio.play("nav")
             self.cooldown = 15
 
-        # Y button - Refresh
+        # Y button - refresh
         if self.gpio.pressed(BTN_Y):
             self.reload_games()
             self.notify("Library refreshed!")
             self.cooldown = 15
 
-        # L1 - Volume down
+        # L1 - volume down
         if self.gpio.pressed(BTN_L1):
             self._vol_down()
             self.cooldown = 8
 
-        # R1 - Volume up
+        # R1 - volume up
         if self.gpio.pressed(BTN_R1):
             self._vol_up()
             self.cooldown = 8
@@ -751,7 +689,7 @@ class Launcher:
             self.state = "game_select"
             return
 
-        # Launch RetroArch
+        # Launch RetroArch.
         pygame.quit()
         subprocess.run([
             RETROARCH_PATH,
@@ -761,7 +699,7 @@ class Launcher:
             game["path"]
         ])
 
-        # Re-init after RetroArch exits
+        # Re-init after RetroArch exits.
         pygame.init()
         pygame.mouse.set_visible(False)
         self.screen = pygame.display.set_mode(
@@ -770,8 +708,6 @@ class Launcher:
         )
         self.state = "game_select"
         self.notify(f"Welcome back!")
-
-    # ---- DRAWING ----
 
     def _draw_bg(self):
         self.screen.fill(C_BG)
@@ -796,7 +732,7 @@ class Launcher:
         dot  = self.fSM.render(" • The Great Handheld  by DK", True, C_GRAY)
         self.screen.blit(dot, (16 + logo.get_width(), 14))
 
-        # Right side info
+        # Right-side status
         rx = SCREEN_WIDTH - 16
         clk = self.fSM.render(time.strftime("%H:%M"), True, C_GRAY)
         rx -= clk.get_width()
@@ -1022,7 +958,7 @@ class Launcher:
                               SCREEN_HEIGHT-22))
 
     def _draw_confirm_launch(self):
-        """Confirmation dialog before launching game."""
+        """Confirmation dialog before launching a game."""
         if not self.games:
             return
         game = self.games[self.game_idx]
@@ -1076,7 +1012,7 @@ class Launcher:
         pygame.draw.line(self.screen, col, (30, 100), (SCREEN_WIDTH-30, 100))
 
         sub = self.fXS.render(
-            "ROM files go in these folders on the MicroSD card:",
+            "Put ROM files in these folders on the MicroSD card:",
             True, C_GRAY)
         self.screen.blit(sub, (30, 110))
 
@@ -1168,7 +1104,7 @@ class Launcher:
         self._draw_notification()
         pygame.display.flip()
 
-    # ---- MAIN LOOP ----
+    # Main loop
 
     def run(self):
         running = True
@@ -1181,10 +1117,7 @@ class Launcher:
         self.gpio.cleanup()
         pygame.quit()
         sys.exit()
-
-# =============================================
-# ENTRY POINT
-# =============================================
+# Entry point
 
 if __name__ == "__main__":
     launcher = Launcher()
