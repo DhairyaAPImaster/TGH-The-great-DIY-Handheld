@@ -64,8 +64,6 @@ Here are the images of the Python launcher-
 )- 
 <img width="533" height="220" alt="Screenshot 2026-05-10 230008" src="https://github.com/user-attachments/assets/07351982-c047-4389-aff6-f1acf80b013c" />
 <img width="795" height="300" alt="Screenshot 2026-05-09 170451" src="https://github.com/user-attachments/assets/d3c5e589-1971-4ace-8ef0-f19d54ade833" />
-<img width="793" height="347" alt="Screenshot 2026-05-09 165009" src="https://github.com/user-attachments/assets/2fd9378b-740e-40db-beeb-ff2c1fc88893" />
-<img width="797" height="406" alt="Screenshot 2026-05-09 135802" src="https://github.com/user-attachments/assets/7b6ab872-daa7-4a54-b1f2-7dee7b510b91" />
 <img width="800" height="440" alt="Screenshot 2026-05-08 181919" src="https://github.com/user-attachments/assets/3f739e95-050e-4902-926e-c2a0a8b94d33" />
 <img width="689" height="340" alt="Screenshot 2026-05-08 181737" src="https://github.com/user-attachments/assets/db1eb948-331f-4e75-b27f-56d3c52fbf0e" />
 <img width="476" height="242" alt="Screenshot 2026-05-08 181207" src="https://github.com/user-attachments/assets/e4d4ba49-dd32-4d69-93c2-a37ed84d5858" />
