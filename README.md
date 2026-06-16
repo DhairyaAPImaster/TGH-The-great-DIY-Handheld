@@ -1,3 +1,7 @@
+<img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/2fd84730-6a83-4686-bd75-53d2d06e5003" />
+
+
+
 # TGH - THE GREAT (DIY) HANDHELD
 So yeah this is me trying to make my own custom retro handheld gaming device with a custom pcb powered by a pi zero 2w.
 **BTW NOTE:** the case shall be printed by someone who was willing to print it from the slack channel - #printing-legion.
