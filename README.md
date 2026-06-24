@@ -50,8 +50,8 @@ So yeah this is me trying to make my own custom retro handheld gaming device wit
 | 2.54MM 2x20 Pin Female Double Row Straight Long Header Strip | To connect the Pi to the PCB | 1 | 0.86 | [Link](https://robu.in/product/2-54mm-2x20-pin-female-double-row-straight-long-header-strip/) | Robu.in |
 | 5 Inch Touch Screen HDMI Interface | THE SCREEN To See what i am playing | 1 | 26.09 | [Link](https://robu.in/product/5-inch-touch-screen-hdmi-interface-display-module-tft-lcd-800x480-raspberry-pi-2-model-b-touch-pen) | Robu.in |
 | Raspberry Pi Zero 2W | This is basically the Brain of the device | 1 | 18.81 | [Link](https://robu.in/product/raspberry-pi-zero-wireless-wh-pre-soldered-header) | Robu.in |
-| PCBA for bottom SMD components on PCB | PCB SMD component assembly service | 2 | 14.15 | [Link](https://jlcpcb.com) | JLCPCB |
-| PCB (Motherboard, and both daughter boards) | Custom PCBs to hold all components | 5 | 5.37 | [Link](https://jlcpcb.com) | JLCPCB |
+| PCBA for bottom SMD components on PCB | PCB SMD component assembly service | 2 | 78.32 | [Link](https://jlcpcb.com) | JLCPCB |
+| PCB (Motherboard, and both daughter boards) | Custom PCBs to hold all components | 5 | 18.00 | [Link](https://jlcpcb.com) | JLCPCB |
 | TOTAL- 199.44 USD | TAX- 2 USD || SHIPPING - 21.31 USD |||
 
 ## fab note
