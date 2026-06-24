@@ -4,7 +4,14 @@
 
 # TGH - THE GREAT (DIY) HANDHELD
 So yeah this is me trying to make my own custom retro handheld gaming device with a custom pcb powered by a pi zero 2w.
+
+
 **BTW NOTE:** the case shall be printed by someone who was willing to print it from the slack channel - #printing-legion.
+
+
+***very VERY IMPORTANT NOTE TO STASIS REVIWER ---> Btw i know u might see the BOM and be like -- "78 USD FOR PCBA???? ITS BETTER TO HAND SOLDER THE COMPONENTS" I totaly understand and i know it would be better to hand solder and i would however... I CANT hand solder all the components since well i have to hand assemble like a few other projects from Macondo too and my EXAMS ARE COMING UP ON THE 7th (im in india) so i cant really afford to hand solder it right now due to less time. Thats why i need PCBA and like PCBA is only for the bottom side cause it has the most SMD components the rest of the components on the TOP i will HAND SOLDER since they arent really many SMD components and there are only few components on the top side mostly pin headers.***
+
+***SO PLEASE PLEASE DONT REJECT THE PROJECT DUE TO THIS since if it is rejected again i dont think i will be able to make the changes and ship it again as its probably gonna get reviewed like after 30th anyways.***
 
 ## project layout
 - src/PCB - actual kicad source stuff, libs, and backups
