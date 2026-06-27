@@ -1,6 +1,17 @@
+<img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/2fd84730-6a83-4686-bd75-53d2d06e5003" />
+
+
+
 # TGH - THE GREAT (DIY) HANDHELD
 So yeah this is me trying to make my own custom retro handheld gaming device with a custom pcb powered by a pi zero 2w.
+
+
 **BTW NOTE:** the case shall be printed by someone who was willing to print it from the slack channel - #printing-legion.
+
+
+***very VERY IMPORTANT NOTE TO STASIS REVIWER ---> Btw i know u might see the BOM and be like -- "78 USD FOR PCBA???? ITS BETTER TO HAND SOLDER THE COMPONENTS" I totaly understand and i know it would be better to hand solder and i would however... I CANT hand solder all the components since well i have to hand assemble like a few other projects from Macondo too and my EXAMS ARE COMING UP ON THE 7th (im in india) so i cant really afford to hand solder it right now due to less time. Thats why i need PCBA and like PCBA is only for the bottom side cause it has the most SMD components the rest of the components on the TOP i will HAND SOLDER since they arent really many SMD components and there are only few components on the top side mostly pin headers.***
+
+***SO PLEASE PLEASE DONT REJECT THE PROJECT DUE TO THIS since if it is rejected again i dont think i will be able to make the changes and ship it again as its probably gonna get reviewed like after 30th anyways.***
 
 ## project layout
 - src/PCB - actual kicad source stuff, libs, and backups
@@ -39,8 +50,8 @@ So yeah this is me trying to make my own custom retro handheld gaming device wit
 | 2.54MM 2x20 Pin Female Double Row Straight Long Header Strip | To connect the Pi to the PCB | 1 | 0.86 | [Link](https://robu.in/product/2-54mm-2x20-pin-female-double-row-straight-long-header-strip/) | Robu.in |
 | 5 Inch Touch Screen HDMI Interface | THE SCREEN To See what i am playing | 1 | 26.09 | [Link](https://robu.in/product/5-inch-touch-screen-hdmi-interface-display-module-tft-lcd-800x480-raspberry-pi-2-model-b-touch-pen) | Robu.in |
 | Raspberry Pi Zero 2W | This is basically the Brain of the device | 1 | 18.81 | [Link](https://robu.in/product/raspberry-pi-zero-wireless-wh-pre-soldered-header) | Robu.in |
-| PCBA for bottom SMD components on PCB | PCB SMD component assembly service | 2 | 14.15 | [Link](https://jlcpcb.com) | JLCPCB |
-| PCB (Motherboard, and both daughter boards) | Custom PCBs to hold all components | 5 | 5.37 | [Link](https://jlcpcb.com) | JLCPCB |
+| PCBA for bottom SMD components on PCB | PCB SMD component assembly service | 2 | 78.32 | [Link](https://jlcpcb.com) | JLCPCB |
+| PCB (Motherboard, and both daughter boards) | Custom PCBs to hold all components | 5 | 18.00 | [Link](https://jlcpcb.com) | JLCPCB |
 | TOTAL- 199.44 USD | TAX- 2 USD || SHIPPING - 21.31 USD |||
 
 ## fab note
@@ -49,7 +60,6 @@ So yeah this is me trying to make my own custom retro handheld gaming device wit
 ## pics from while i was designing it
 <img width="533" height="220" alt="Screenshot 2026-05-10 230008" src="https://github.com/user-attachments/assets/07351982-c047-4389-aff6-f1acf80b013c" />
 <img width="795" height="300" alt="Screenshot 2026-05-09 170451" src="https://github.com/user-attachments/assets/d3c5e589-1971-4ace-8ef0-f19d54ade833" />
-<img width="793" height="347" alt="Screenshot 2026-05-09 165009" src="https://github.com/user-attachments/assets/2fd9378b-740e-40db-beeb-ff2c1fc88893" />
 <img width="722" height="238" alt="Screenshot 2026-05-09 164731" src="https://github.com/user-attachments/assets/7919f3ed-ffe4-4e6f-bf32-dd36c344b107" />
 <img width="354" height="302" alt="Screenshot 2026-05-09 163952" src="https://github.com/user-attachments/assets/7560b851-7067-440e-bd96-9815e528fb82" />
 <img width="591" height="307" alt="Screenshot 2026-05-09 162141" src="https://github.com/user-attachments/assets/caa44fb4-8e67-4365-84b5-602e523d2dbf" />
