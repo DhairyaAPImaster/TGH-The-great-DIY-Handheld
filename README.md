@@ -14,11 +14,54 @@ So yeah this is me trying to make my own custom retro handheld gaming device wit
 ***SO PLEASE PLEASE DONT REJECT THE PROJECT DUE TO THIS since if it is rejected again i dont think i will be able to make the changes and ship it again as its probably gonna get reviewed like after 30th anyways.***
 
 ## project layout
-- src/PCB - actual kicad source stuff, libs, and backups
-- src/FreeCAD - case models and other cad source files
-- production files/PCB - gerbers, bom, cpl, panelized pcb outputs
-- production files/CAD - exported stls
-- Custom Firmware!!!!!!!!!! - launcher, roms, saves, and states
+```
+.
+├── Assembly Layered.step
+├── Assembly.step
+├── Custom Firmware!!!!!!!!!!/
+│   ├── Launcher.py
+│   ├── roms/
+│   │   ├── GB/
+│   │   ├── GBA/
+│   │   ├── GBC/
+│   │   ├── GEN/
+│   │   ├── NES/
+│   │   ├── SMS/
+│   │   └── SNES/
+│   ├── saves/
+│   └── states/
+├── production files/
+│   ├── CAD/
+│   │   ├── Bottom Case.step
+│   │   └── Top Case.step
+│   └── PCB/
+│       ├── MAIN PANELISED PCB (TO BE MANUFACTURED)/
+│       │   └── CPL.csv
+│       ├── Mother board (not to be manufactured)/
+│       │   └── CPL Motherboard.csv
+│       ├── left daughter board (not to be manufactured)/
+│       │   └── CPL LEFT BOARD.csv
+│       └── right daughter board (not to be manufactured)/
+│           └── CPL RIGHT BOARD.csv
+└── src/
+		├── FreeCAD/
+		│   ├── Assembly Layered.FCStd
+		│   ├── Assembly.FCStd
+		│   ├── Bottom case.FCStd
+		│   ├── Top Case.FCStd
+		│   └── dual-axis-xy-joystick-module-with-push-button-1.snapshot.1/
+		└── PCB/
+				├── Non Panelised PCB/
+				│   ├── Handheld Gaming device PCB.kicad_pcb
+				│   ├── Handheld Gaming device PCB.kicad_pro
+				│   ├── Handheld Gaming device PCB.kicad_sch
+				│   ├── Left_Daughter_Board.kicad_sch
+				│   └── Right_Daughter_Board.kicad_sch
+				└── Panelised PCB/
+						├── Handheld_Panel.kicad_pcb
+						├── Handheld_Panel.kicad_pro
+						└── Handheld_Panel.kicad_sch
+```
 
 ## quick specs
 - Panelised PCB Dimensions - 339.82 mm x 102.32 mm
