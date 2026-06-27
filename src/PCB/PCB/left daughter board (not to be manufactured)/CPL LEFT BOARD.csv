@@ -1,0 +1,20 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+R10,10k,R_0402_1005Metric,190.797,-220.955,90,bottom
+R11,10k,R_0402_1005Metric,177.047,-238.685,-90,bottom
+R12,10k,R_0402_1005Metric,167.047,-229.685,-90,bottom
+R13,10k,R_0402_1005Metric,200.297,-229.955,90,bottom
+R14,10k,R_0402_1005Metric,208.067,-197.365,180,bottom
+R15,10k,R_0402_1005Metric,208.067,-201.115,0,bottom
+R22,10k,R_0402_1005Metric,164.807,-252.335,-90,bottom
+R23,10k,R_0402_1005Metric,202.307,-253.105,90,bottom
+R24,20k,R_0402_1005Metric,212.547,-197.365,0,bottom
+R25,20k,R_0402_1005Metric,212.567,-201.115,180,bottom
+J3,Joystick_Left,PinSocket_1x05_P2.54mm_Horizontal,204.057,-192.245,0,top
+J10,FCC Connector Left Board,PinHeader_1x12_P1.00mm_Vertical,213.057,-215.115,0,top
+JM2,Joystick Module right board,Joystick Module 40x27mm,170.579488,-198.883303,0,top
+SW6,D-pad UP,SW_PUSH_6mm_H5mm,180.557,-218.615,0,top
+SW7,D-pad DOWN,SW_PUSH_6mm_H5mm,180.557,-236.615,0,top
+SW8,D-pad LEFT,SW_PUSH_6mm_H5mm,170.557,-227.365,0,top
+SW9,D-pad RIGHT,SW_PUSH_6mm_H5mm,190.307,-227.365,0,top
+SW12,Start,SW_PUSH_6mm_H5mm,169.057,-250.095,0,top
+SW13,Select,SW_PUSH_6mm_H5mm,192.307,-250.345,0,top

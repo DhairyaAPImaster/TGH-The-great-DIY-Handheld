@@ -973,13 +973,26 @@
       {
         "filename": "Handheld_Panel.kicad_sch",
         "name": "Handheld_Panel",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "1ce14f08-743d-4424-a454-1ba892760246"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "1ce14f08-743d-4424-a454-1ba892760246",
+      "Handheld_Panel"
+    ],
+    [
+      "3da37b3d-1e7c-4eab-9de9-bd60c04e87d3",
+      "Right_Daughter_Board"
+    ],
+    [
+      "b77b50d8-3a9a-4af5-9747-06972a5aed60",
+      "Left_Daughter_Board"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
