@@ -9,7 +9,7 @@ So yeah this is me trying to make my own custom retro handheld gaming device wit
 **BTW NOTE:** the case shall be printed by someone who was willing to print it from the slack channel - #printing-legion.
 
 
-***very VERY IMPORTANT NOTE TO STASIS REVIWER ---> Btw i know u might see the BOM and be like -- "78 USD FOR PCBA???? ITS BETTER TO HAND SOLDER THE COMPONENTS" I totaly understand and i know it would be better to hand solder and i would however... I CANT hand solder all the components since well i have to hand assemble like a few other projects from Macondo too and my EXAMS ARE COMING UP ON THE 7th (im in india) so i cant really afford to hand solder it right now due to less time. Thats why i need PCBA and like PCBA is only for the bottom side cause it has the most SMD components the rest of the components on the TOP i will HAND SOLDER since they arent really many SMD components and there are only few components on the top side mostly pin headers.***
+***very VERY IMPORTANT NOTE TO STASIS REVIWER ---> SO IN THE BOM U MIGHT SEE THAT THE QTY OF SOME OF THE COMPONENTS FROM ROBU.IN IS MORE THAN REQUIRED THIS IS BECAUSE ROBU.IN HAS A MINIMUM ORDER QTY OF 10 INDIAN RUPEES PER COMPONENT SO HENCE I HAD TO LIKE INCREASE THE QTY OF SOME OF THE PASIVE COMPOENNTS TO LIKE FOLLOW THIS. BTW ITS STILL LIKE WAY WAY CHEAPER THAN JLCPCB'S PCBA THAT WOULD HAVE BROUGHT THE TOTAL COST TO 199.56 USD EXCLUDING TAX (I CHECKED)***
 
 ***SO PLEASE PLEASE DONT REJECT THE PROJECT DUE TO THIS since if it is rejected again i dont think i will be able to make the changes and ship it again as its probably gonna get reviewed like after 30th anyways.***
 
@@ -67,38 +67,48 @@ So yeah this is me trying to make my own custom retro handheld gaming device wit
 - Panelised PCB Dimensions - 339.82 mm x 102.32 mm
 - the only KiCAD plugin i used was KiKit to panelise the board, everything else was designed by me (this is my first major PCB project)
 
-## bom / parts i still need
-### Parts & Tools List
+## BOM/BILL OF MATERIALS (PARTS I NEED FUNDING FOR)
 
 | Name | Purpose | Quantity | Total Cost (USD) | Link | Distributor |
-|:---|:---|:---:|:---:|:---|:---|
-| Isopropyl Alcohol | to clean the board after i solder the components so that the residue flux does not corrode the board slowly. | 1 | 2.69 | [Link](https://www.amazon.in/gp/aw/d/B0DXLCF467/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c86f6646ab53e02a75d2c7936d94b9e8&hsa_cr_id=0&qid=1778756676&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=ULcGLOQ6dH&ref_=sbx_s_sparkle_sbtcd_asin_0_title&pd_rd_w=HfChB&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=EFF0ZSWMT934R4D0TNBS&pd_rd_wg=doBkY&pd_rd_r=d02561c6-e886-41f6-b583-cc3dacaa126e&th=1) | Amazon |
-| Tactile Push Button Switch Caps Multicolour | To cover the buttons and not hurt fingers. | 1 | 2.31 | [Link](https://www.amazon.in/gp/product/B0DCP7J7R7/ref=ox_sc_act_title_1?smid=AOG7U64E0DVL2&psc=1) | Amazon |
-| TP4056 module | To charge | 1 | 0.17 | [Link](https://robu.in/product/tp4056-1a-li-ion-battery-charging-board-micro-usb-with-current-protection-type-c-connector/) | Robu.in |
-| Jumper Wires | To connect the daughter Boards to the motherboard and also to connect the 2 pin connector header pin to the TP4056 module. | 1 | 1.63 | [Link](https://www.amazon.in/Electronic-Spices-Jumper-Female-Multicolor/dp/B0CPFCRCHB/) | Amazon |
-| Solder | I cant solder witout solder and i have like 1cm or so left as i used the rest before my soldering iron short cicuited. | 1 | 7.75 | [Link](https://www.amazon.in/SONEAK-Solder-Rosin-Electrical-Soldering/dp/B084RZWVXY/) | Amazon |
-| Soldering Flux | To help solder and not have cold solder joints. | 1 | 0.83 | [Link](https://www.amazon.in/UNIVERSAL-HUB-Soldering-Electronics-components/dp/B0FV8HHBTN/) | Amazon |
-| Soldering Iron | Mine short circuited and i need to solder a buch of stuff on the pcb which i cant without the iron | 1 | 3.02 | [Link](https://www.amazon.in/Temperature-Adjustable-Soldering-Heating-Extra/dp/B0DPVMRTXG/) | amazon |
-| Soldering Helping hands | Too see what i am soldering and to help solder properly without burning anything by mistake. | 1 | 5.35 | [Link](https://robu.in/product/te-801-multi-function-led-magnifier-pcb-soldering-iron-stand-holder-table-magnifying-glass-35x-12x-w-2-led-light/) | Robu.in |
-| JST SH 2 pin Connector 2mm Pitch | to connect battery and also robu.in has a min order of 10 rupees or 0.10 usd for each component hence i had to add 9 in qty but it is still cheaper than others | 9 | 0.11 | [Link](https://robu.in/product/jst-sh-2-pin-connector-2mm-pitch/) | Robu.in |
-| Mini HDMI To HDMI Cable | to connect pi to display | 1 | 1.3 | [Link](https://robu.in/product/mini-hdmi-hdmi-cable-1-8-meter-round-high-quality-copper-clad-steel-black/) | Robu.in |
-| 40mm 8Ω (ohm) 0.5Watt Power Audio Speaker - Multicolor | to produce sound | 1 | 1.66 | [Link](https://www.amazon.in/Electronic-Spices-Wired-Sound-Speakers/dp/B07MTK843Z) | amazon |
-| PS2 joystick module | Left and right joystick | 2 | 0.79 | [Link](https://www.flyrobo.in/ps2_game_joystick_module_for_arduino) | FlyRobo |
-| 4000mAh 3.7V Micro LiPo Battery pack | To power the device | 1 | 5.64 | [Link](https://robu.in/product/nova-955465-4000mah-3-7v-lipo-battery-pack/) | Robu.in |
-| 100 uF 10V Through Hole Electrolytic Capacitor | headphone blocking on PCB (Note: min order requirement included in qty) | 8 | 0.12 | [Link](https://robu.in/product/100-uf-10v-through-hole-electrolytic-capacitor-pack-of-20/) | Robu.in |
-| 6mm Tactile Push Button Switch 6x6 (Pack of 10) | For buttoning | 1 | 0.14 | [Link](https://robu.in/product/6x6x5-tactile-push-button-switch/) | Robu.in |
-| Slide switch SPDT | To switch on the device | 2 | 0.17 | [Link](https://robu.in/product/1-month-warranty-805/) | Robu.in |
-| 1x5 2.54mm Female Right Angle Single Row Header Strip | For Connecting the left and right joystick Modules | 2 | 0.26 | [Link](https://www.sunrom.com/p/1x5-254mm-female-right-angle-single-row-header-strip) | sunrom.com |
-| 1x2 male pin header 2.54mm | For connecting the TP4056 module and supplying power to display/speaker | 5 | 0.11 | [Link](https://robu.in/product/a2541wv-2p-9t-cjt-1x2-pin-2-54mm-180-single-row-pin-header-rohs/) | Robu.in |
-| 2.54MM 2x20 Pin Female Double Row Straight Long Header Strip | To connect the Pi to the PCB | 1 | 0.86 | [Link](https://robu.in/product/2-54mm-2x20-pin-female-double-row-straight-long-header-strip/) | Robu.in |
-| 5 Inch Touch Screen HDMI Interface | THE SCREEN To See what i am playing | 1 | 26.09 | [Link](https://robu.in/product/5-inch-touch-screen-hdmi-interface-display-module-tft-lcd-800x480-raspberry-pi-2-model-b-touch-pen) | Robu.in |
-| Raspberry Pi Zero 2W | This is basically the Brain of the device | 1 | 18.81 | [Link](https://robu.in/product/raspberry-pi-zero-wireless-wh-pre-soldered-header) | Robu.in |
-| PCBA for bottom SMD components on PCB | PCB SMD component assembly service | 2 | 78.32 | [Link](https://jlcpcb.com) | JLCPCB |
-| PCB (Motherboard, and both daughter boards) | Custom PCBs to hold all components | 5 | 18.00 | [Link](https://jlcpcb.com) | JLCPCB |
-| TOTAL- 199.44 USD | TAX- 2 USD || SHIPPING - 21.31 USD |||
+|---|---|---|---|---|---|
+| PCB from JLCPCB  | it is the main PCB and will connect all components to each other. (btw JLCPCB has min order qty for PCB as 5 so yeah) | 5 | 18.4 | https://cart.jlcpcb.com/ | JLCPCB |
+| Raspberry Pi Zero | its basically the core of the whole project it shall basically run everything. | 1 | 19.08 | https://robu.in/product/raspberry-pi-zero-wireless-wh-pre-soldered-header/ | robu.in |
+| 5 Inch Touch Screen HDMI Interface TFT LCD | to display. | 1 | 26.18 | https://robu.in/product/5-inch-touch-screen-hdmi-interface-display-module-tft-lcd-800x480-raspberry-pi-2-model-b-touch-pen/ | robu.in |
+| Mini HDMI To HDMI Cable | to connect pi to display | 1 | 1.08 | https://robu.in/product/mini-hdmi-hdmi-cable-1-8-meter-round-high-quality-copper-clad-steel-black/ | robu.in |
+| 10 uF capacitor | to decouple more  | 15 | 0.14 | https://robu.in/product/cs2012x7r106m100nre-samwha-10v-10uf-x7r-%c2%b120-0805-multilayer-ceramic-capacitors-mlcc-smd-smt-rohs/ | robu.in |
+| 100nF capacitor | to decouple | 20 | 0.14 | https://robu.in/product/tcc0805x7r104k500dt-cctc-smt-ceramic-capacitors-0805-x7r-104k100nf%c2%b110-rated-voltage50v-thickness0-85mmtape/ | robu.in |
+| 6x6x5mm tactile switches | to well be used as switches and for the buttons controlling everything. | 10 | 0.14 | https://robu.in/product/6x6x5mm-tactile-push-button-switch-pack-of-20/ | robu.in |
+| MAX98358ETE | audio amplifier | 1 | 2.62 | https://robu.in/product/1-month-warranty-560/ | robu.in |
+| MT3608  IC | to take a lower DC voltage and steps it up to a higher, adjustable DC voltage | 2 | 0.28 | https://robu.in/product/mt3608-xian-aerosemi-tech-boost-type-adjustable-2a-2v24v-sot-23-6-dc-dc-converters-rohs/ | robu.in |
+| 33 µH BOURNS-SRR1260-330M-Power Inductor (SMD) | to stores energy in a magnetic field and resists changes in electrical current. | 1 | 0.67 | https://robu.in/product/srr1260-330m-bourns-srr1260-330m-power-inductor-smd-33-%c2%b5h-3-a-shielded-2-8-a-srr1260-series/ | robu.in |
+| SOD-123 Schottky Diodes ROHS | used to allow current to flow in one direction. | 2 | 0.12 | https://robu.in/product/1n5819w-kexin-40v-600mv1a-1a-sod-123-schottky-diodes-rohs/ | robu.in |
+| 100 ohm resistor | to resist current | 25 | 0.12 | https://robu.in/product/rc0805jr-07100rl-yageo-res-thick-film-0805-100-ohm-5-0-125w1-8w-%c2%b1100ppm-c-pad-smd-t-r/ | robu.in |
+| 4.7k ohm resistor | to resist  | 29 | 0.12 | https://robu.in/product/yageo-4-7k-ohm-1-4w-0805-surface-mount-resistor-pack-of-50/ | robu.in |
+| 10k ohm resistor | im legit tired of writing the same thing again for all the resistor but anyways ---> IT resists the flow of current. | 20 | 0.12 | https://robu.in/product/rc0805fr-0710kl-yageo-res-thick-film-0805-10k-ohm-1-0-125w1-8w-%c2%b1100ppm-c-pad-smd-t-r/ | robu.in |
+| 20k ohm resistor | u are not gonna belive what this does ---> IT resists the flow of current.... | 29 | 0.12 | https://robu.in/product/rc0805fr-0720kl-yageo-res-thick-film-0805-20k-ohm-1-0-125w1-8w-%c2%b1100ppm-c-pad-smd-t-r/ | robu.in |
+| 33k ohm resistor | to resist!!!!! | 20 | 0.12 | https://robu.in/product/rc0805fr-0733kl-yageo-res-thick-film-0805-33k-ohm-1-0-125w1-8w-%c2%b1100ppm-c-pad-smd-t-r/ | robu.in |
+| 100k ohm 0805 resistor | to resist flow of current? | 23 | 0.12 | https://robu.in/product/yageo-100k-ohm-1-2w-0805-surface-mount-resistor-pack-of-50/ | robu.in |
+| D6.3xL11mm Aluminum Electrolytic Capacitors | its a capacitor dude like it provides capacitance (idk what do i write under Purpose) | 4 | 0.18 | https://robu.in/product/16yxf100mefct16-3x11-rubycon-100uf-16v-%c2%b120-plugind6-3xl11mm-aluminum-electrolytic-capacitors-leaded-rohs/ | robu.in |
+| 22µF SMT 0805 capacitor | To provide capacitance | 10 | 0.18 | https://robu.in/product/tcc0805x5r226k100ft-cctc-smt-ceramic-capacitors-0805-x5r-226k22%c2%b5f%c2%b110-rated-voltage10v-thickness1-25mmtape/ | robu.in |
+| TP4056 1A Li-Ion Battery Charging Board | To charge the battery  | 1 | 0.17 | https://robu.in/product/tp4056-1a-li-ion-battery-charging-board-micro-usb-with-current-protection-type-c-connector/ | Robu.in |
+| 1mm Pitch Pin headers | These are seperate as the previous headers are not 1mm pitch pin headers. | 1 | 0.21 | https://robu.in/product/1-month-warranty-884/ | Robu.in |
+| 3.5mm Female Audio Jack Connector  | to attach headphones | 1 | 0.47 | https://evelta.com/3-5mm-female-audio-jack-connector-6pin-1/ | Evelta.com |
+| ADS1115IDGSR - 16-Bit ADC 2, 4 Input 1 Sigma-Delta IC VSSOP-10 | to convert analog voltage signals into digital data  | 1 | 1.94 | https://evelta.com/ads1115idgsr-16-bit-adc-2-4-input-1-sigma-delta-ic-vssop-10/ | Evelta.com |
+| PS2 Game Joystick Module | For the Joysticks | 2 | 0.82 | https://www.flyrobo.in/ps2_game_joystick_module_for_arduino | FlyRobo |
+| Male and Female Header Connector Strip, Pack of 10, Breakable Strip | For the pin Headers (btw this was a cheap pack of 10 and is actually cheaper than buying each header individually) | 1 | 1.27 | https://www.amazon.in/gp/product/B0FQP3SN7H/ref=ox_sc_act_image_8?smid=ATNZHHWX66S9H&psc=1 | Amazon |
+| SPDT Slide Switch Right Angle | TO turn on and off | 1 | 1.0 | https://www.amazon.in/gp/product/B0B434R6QF/ref=ox_sc_act_image_7?smid=A2JDRZEGU1IDE2&psc=1 | Amazon |
+| 0.5Watt Power Audio Speaker | For sound | 1 | 1.21 | https://www.amazon.in/gp/product/B07MTK843Z/ref=ox_sc_act_image_6?smid=AJ6SIZC8YQDZX&psc=1 | Amazon |
+| Isopropyl Alcohol | For cleaning Board after soldering. | 1 | 2.95 | https://www.amazon.in/gp/product/B0DXLCF467/ref=ox_sc_act_image_5?smid=A66YHFPLB5NLO&th=1 | Amazon |
+| Tactile Push Button Switch Caps | To button | 1 | 2.34 | https://www.amazon.in/gp/product/B0DCP7J7R7/ref=ox_sc_act_image_4?smid=AOG7U64E0DVL2&psc=1 | Amazon |
+| Jumper Wires | For fine adjustment if required | 1 | 1.66 | https://www.amazon.in/gp/product/B0CPFCRCHB/ref=ox_sc_act_image_3?smid=AJ6SIZC8YQDZX&th=1 | Amazon |
+| Solder  | to solder | 1 | 8.37 | https://www.amazon.in/gp/product/B084RZWVXY/ref=ox_sc_act_image_2?smid=AVIYBMAJK8N56&th=1 | Amazon |
+| Soldering Flux | Helping to solder. | 1 | 0.84 | https://www.amazon.in/gp/product/B0FV8HHBTN/ref=ox_sc_act_image_1?smid=A366YFPXO3CTI5&psc=1 | Amazon |
+
+
+
 
 ## fab note
-- so i plan on using JLCPCB to actually get my boards manufactured and i will be using PCBA for the bottom SMD components
+- so i plan on using JLCPCB to actually get my boards manufactured but will be ASSEMBLING THE COMPONENTS BY HAND!!!!
 
 ## pics from while i was designing it
 <img width="533" height="220" alt="Screenshot 2026-05-10 230008" src="https://github.com/user-attachments/assets/07351982-c047-4389-aff6-f1acf80b013c" />
