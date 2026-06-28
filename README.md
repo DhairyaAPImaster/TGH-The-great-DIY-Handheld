@@ -9,58 +9,40 @@ So yeah this is me trying to make my own custom retro handheld gaming device wit
 **BTW NOTE:** the case shall be printed by someone who was willing to print it from the slack channel - #printing-legion.
 
 
-***very VERY IMPORTANT NOTE TO STASIS REVIWER ---> SO IN THE BOM U MIGHT SEE THAT THE QTY OF SOME OF THE COMPONENTS FROM ROBU.IN IS MORE THAN REQUIRED THIS IS BECAUSE ROBU.IN HAS A MINIMUM ORDER QTY OF 10 INDIAN RUPEES PER COMPONENT SO HENCE I HAD TO LIKE INCREASE THE QTY OF SOME OF THE PASIVE COMPOENNTS TO LIKE FOLLOW THIS. BTW ITS STILL LIKE WAY WAY CHEAPER THAN JLCPCB'S PCBA THAT WOULD HAVE BROUGHT THE TOTAL COST TO 199.56 USD EXCLUDING TAX (I CHECKED)***
+***very VERY IMPORTANT NOTE TO MACONDO REVIWER ---> SO IN THE BOM U MIGHT SEE THAT THE QTY OF SOME OF THE COMPONENTS FROM ROBU.IN IS MORE THAN REQUIRED THIS IS BECAUSE ROBU.IN HAS A MINIMUM ORDER QTY OF 10 INDIAN RUPEES PER COMPONENT SO HENCE I HAD TO LIKE INCREASE THE QTY OF SOME OF THE PASIVE COMPOENNTS TO LIKE FOLLOW THIS. BTW ITS STILL LIKE WAY WAY CHEAPER THAN JLCPCB'S PCBA THAT WOULD HAVE BROUGHT THE TOTAL COST TO 199.56 USD EXCLUDING TAX (I CHECKED)***
 
-***SO PLEASE PLEASE DONT REJECT THE PROJECT DUE TO THIS since if it is rejected again i dont think i will be able to make the changes and ship it again as its probably gonna get reviewed like after 30th anyways.***
+
 
 ## project layout
-```
+
 .
-├── Assembly Layered.step
-├── Assembly.step
-├── Custom Firmware!!!!!!!!!!/
-│   ├── Launcher.py
-│   ├── roms/
-│   │   ├── GB/
-│   │   ├── GBA/
-│   │   ├── GBC/
-│   │   ├── GEN/
-│   │   ├── NES/
-│   │   ├── SMS/
-│   │   └── SNES/
-│   ├── saves/
-│   └── states/
-├── production files/
-│   ├── CAD/
-│   │   ├── Bottom Case.step
-│   │   └── Top Case.step
-│   └── PCB/
-│       ├── MAIN PANELISED PCB (TO BE MANUFACTURED)/
-│       │   └── CPL.csv
-│       ├── Mother board (not to be manufactured)/
-│       │   └── CPL Motherboard.csv
-│       ├── left daughter board (not to be manufactured)/
-│       │   └── CPL LEFT BOARD.csv
-│       └── right daughter board (not to be manufactured)/
-│           └── CPL RIGHT BOARD.csv
-└── src/
-		├── FreeCAD/
-		│   ├── Assembly Layered.FCStd
-		│   ├── Assembly.FCStd
-		│   ├── Bottom case.FCStd
-		│   ├── Top Case.FCStd
-		│   └── dual-axis-xy-joystick-module-with-push-button-1.snapshot.1/
-		└── PCB/
-				├── Non Panelised PCB/
-				│   ├── Handheld Gaming device PCB.kicad_pcb
-				│   ├── Handheld Gaming device PCB.kicad_pro
-				│   ├── Handheld Gaming device PCB.kicad_sch
-				│   ├── Left_Daughter_Board.kicad_sch
-				│   └── Right_Daughter_Board.kicad_sch
-				└── Panelised PCB/
-						├── Handheld_Panel.kicad_pcb
-						├── Handheld_Panel.kicad_pro
-						└── Handheld_Panel.kicad_sch
+├── `Assembly Layered.step`
+├── `Assembly.step`
+├── `Custom Firmware!!!!!!!!!!/`
+│   ├── `Launcher.py`
+│   ├── `roms/`
+│   │   ├── `GB/`
+│   │   ├── `GBA/`
+│   │   ├── `GBC/`
+│   │   ├── `GEN/`
+│   │   ├── `NES/`
+│   │   ├── `SMS/`
+│   │   └── `SNES/`
+│   ├── `saves/`
+│   └── `states/`
+├── `production files/`
+│   ├── `CAD/`
+│   └── `PCB/`
+│       ├── `MAIN PANELISED PCB (TO BE MANUFACTURED)/`
+│       ├── `Mother board (not to be manufactured)/`
+│       ├── `left daughter board (not to be manufactured)/`
+│       └── `right daughter board (not to be manufactured)/`
+└── `src/`
+		├── `FreeCAD/`
+		└── `PCB/`
+
+
+
 ```
 
 ## quick specs
