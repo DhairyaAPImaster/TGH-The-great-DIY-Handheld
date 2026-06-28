@@ -15,6 +15,7 @@ So yeah this is me trying to make my own custom retro handheld gaming device wit
 
 ## project layout
 
+```
 .
 ├── `Assembly Layered.step`
 ├── `Assembly.step`
