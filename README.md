@@ -50,6 +50,30 @@ So yeah this is me trying to make my own custom retro handheld gaming device wit
 - Panelised PCB Dimensions - 339.82 mm x 102.32 mm
 - the only KiCAD plugin i used was KiKit to panelise the board, everything else was designed by me (this is my first major PCB project)
 
+
+
+## HOW TO RECREATE THIS PROJECT YOURSELF!!! 
+- Step 1 - Basically Just Clone or downlaod this repo from github. U can do this by either going to the code button on this repo page and pressing download Zip or u can clone this Repo.
+- Step 2 - Upload the gerbers zip file in JLCPCB (or any other manufacturer) Place order Page (u will need to sign up to order but can get a quote without signing up on jlcpcb)
+- Step 3 - Change the colour of the PCB in the options JLC gives (if u use JLC PCB most of the times canging colours does not add any charge acc to what i know)
+- Step 4 - Select PCBA if u want JLCPCB to assemble the PCB for you (though it is way more expensive than just soldering everything yourself.)
+- Step 5 - Upload the CPL and BOM files.(if you are getting pcba)
+- Step 6 - Recheck the position of all components
+- Step 7 - Add to cart and order the PCB!! **(if you are soldering the components yourself you will need to buy them from some other place im mainly using robu.in and some components froma amzon and others)**
+- Step 8 - If you dont have a 3D PRINTER jlcpcb has a 3d printing service too caled JLC3DP so u can upload the files for the case there and get it printed too but if u have a 3d printer you can just print it youreslf and save a lot of money.
+- Step 9 - Order strong epoxy glue or superglue that does not cause harm to the 3d printed case material (I will be using FeviQuick as it should not cause harm to PLA in which the case will be printed)
+- Step 10 - WAIT WAIT WAIT for your parts to be delhivered
+- Step 11 - Once you have the PCB you will need to connect the daughter boards to the main motherboard using wires or an FFC connector i will be using solid code jumper wires since they are the easiest.
+- Step 12 - If you are hand soldering the components you need to hand solder them according to the PCB Design that you can find by opening the project in kicad.
+- Step 13 - Once you have all the parts ready (PCB, CASE and the appropriate Glue) place the PCB in the Case (you might have to trim the spacers down a bit as i made the spacers high so that they arent to small as i can always cut higher spacers down but can not extend spacers that are short.)  Use hot glue to secure the PCB onto the Spacers (btw if you have a smaller 3d printer you will have to like print the case in parts or diagonaly as it is slightly bigger than like the a1 mini and others of that size)
+- Step 14 - Once the PCB is secured inside the case glue the Top Part of the Case shut after attatching the button caps onto the switches and adjusting the spacing of the screen.
+- Step 15 - BOOM  THERE YOU HAVE IT!!!
+
+
+
+
+
+
 ## BOM/BILL OF MATERIALS (PARTS I NEED FUNDING FOR)
 
 | Name | Purpose | Quantity | Total Cost (USD) | Link | Distributor |
@@ -91,7 +115,7 @@ So yeah this is me trying to make my own custom retro handheld gaming device wit
 
 
 ## fab note
-- so i plan on using JLCPCB to actually get my boards manufactured but will be ASSEMBLING THE COMPONENTS BY HAND!!!!
+- so i plan on using JLCPCB to actually get my boards manufactured (i checked and for the size of this project's pcb getting the pcb from robu.in is way more expensive than jlcpcb) but will be ASSEMBLING THE COMPONENTS BY HAND!!!!
 
 ## pics from while i was designing it
 <img width="533" height="220" alt="Screenshot 2026-05-10 230008" src="https://github.com/user-attachments/assets/07351982-c047-4389-aff6-f1acf80b013c" />
