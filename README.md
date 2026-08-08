@@ -67,9 +67,69 @@ So yeah this is me trying to make my own custom retro handheld gaming device wit
 - Step 12 - If you are hand soldering the components you need to hand solder them according to the PCB Design that you can find by opening the project in kicad.
 - Step 13 - Once you have all the parts ready (PCB, CASE and the appropriate Glue) place the PCB in the Case (you might have to trim the spacers down a bit as i made the spacers high so that they arent to small as i can always cut higher spacers down but can not extend spacers that are short.)  Use hot glue to secure the PCB onto the Spacers (btw if you have a smaller 3d printer you will have to like print the case in parts or diagonaly as it is slightly bigger than like the a1 mini and others of that size)
 - Step 14 - Once the PCB is secured inside the case glue the Top Part of the Case shut after attatching the button caps onto the switches and adjusting the spacing of the screen.
-- Step 15 - BOOM  THERE YOU HAVE IT!!!
+- Step 15 - BOOM  THERE YOU HAVE IT THE PHYSICAL HARDWARE IS DONE NOW THE FIRMWARE.....
 
+- Step 16 - To run the firmware first flash RASPBERRY PI OS onto the raspberry pi
 
+- Step 17 - Put the microSD card into the Raspberry Pi Zero 2 W and power it on. Give it a little bit of time to boot for the first time. If you are using the Pi by itself for the initial setup, connect it to a display and keyboard so you can configure everything.
+
+- Step 18 - Clone this repository onto the Raspberry PiThen enter the firmware folder:
+
+	`TGH-The-great-DIY-Handheld/"Custom Firmware!!!!!!!!!!`
+
+	The firmware folder should look something like this:
+	```
+	Custom Firmware!!!!!!!!!!
+	├── Launcher.py
+	├── roms/
+	│   ├── GB/
+	│   ├── GBA/
+	│   ├── GBC/
+	│   ├── GEN/
+	│   ├── NES/
+	│   ├── SMS/
+	│   └── SNES/
+	├── saves/
+	└── states/
+	```
+
+ - Step 19 - If everything is working correctly, the TGH launcher should start.
+
+ - ALMOST LAST STEP - ADD YOUR ROMS to there respective folders in the firmware folder
+	Basically:
+
+	Game Boy ROM → `GB/`
+
+	Game Boy Advance ROM → `GBA/`
+
+	Game Boy Color ROM → `GBC/`
+
+	Genesis ROM → `GEN/`
+
+	NES ROM → `NES/`
+
+	Sega Master System ROM → `SMS/`
+
+	SNES ROM → `SNES/`
+
+- TRUE LAST STEP - CONNECT EVERYTHING TO THE CUSTOM PCB
+
+- **RECOMMENDED** - Before closing the case, test:
+
+Does the Pi boot?
+Does the display work?
+Does the launcher start?
+Do the buttons work?
+Do the joysticks work?
+Does audio work?
+Does the speaker work?
+Does the headphone jack work?
+Does the power system work?
+Do games launch?
+Do saves/states work?
+
+If all of those work (IF U DO IT CORRECTLY IT WILL WORK) THEN..... 
+## BOOM!!!! YOU HAVE A WORKING RETRO HANDHELD GAMING DEVICE!!!!!!
 
 
 
