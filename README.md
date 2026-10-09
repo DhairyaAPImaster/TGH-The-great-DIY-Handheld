@@ -19,6 +19,7 @@ So yeah this is me trying to make my own custom retro handheld gaming device wit
 .
 ├── `Assembly Layered.step`
 ├── `Assembly.step`
+├── `wiring diagram.png`
 ├── `Custom Firmware!!!!!!!!!!/`
 │   ├── `Launcher.py`
 │   ├── `roms/`
@@ -49,6 +50,13 @@ So yeah this is me trying to make my own custom retro handheld gaming device wit
 ## quick specs
 - Panelised PCB Dimensions - 339.82 mm x 102.32 mm
 - the only KiCAD plugin i used was KiKit to panelise the board, everything else was designed by me (this is my first major PCB project)
+
+
+
+## WIRING DIAGRAM
+
+
+<img width="1918" height="598" alt="image" src="https://github.com/user-attachments/assets/940cf88b-9de6-4b77-a0bd-5599082807f3" />
 
 
 
